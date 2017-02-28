@@ -1,13 +1,9 @@
-# Data Analytics Capstone Project: PwC Insurance Simulated Data
+# Data Analytics Capstone Project: PwC Insurance Data
 
 INTRODUCTION
 ------------
 
-This project focuses on real world big data implementations.
-
-EXPLORATORY DATA ANALYSIS
--------------------------
-
+This project focuses on real world big data implementations of data in the insurance industry. Our goal is to analyze the customer segmentation with a goal of providing recommendations to minimize the loss ratio.
 
 AUTHORS
 -------
