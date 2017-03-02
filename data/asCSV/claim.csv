@@ -1,0 +1,1355 @@
+Claim ID,Policy ID,Claimant Id,Vehicle ID,Claim Amount,Claim Description
+1016,1015072,48946,86,112800,Loss of Value to Vehicle
+319,1016048,2218184,84,108580,Loss of Value to Vehicle
+162,1017411,20411,85,106720,Loss of Value to Vehicle
+1014,1027330,30330,87,104580,Injury by Uninsured or Underinsured Defendant
+352,1000458,3458,73,6580,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+671,1018847,21847,82,96280,Loss of Value to Vehicle
+232,1013265,16265,86,87420,Loss of Value to Vehicle
+884,1000662,3662,3,1650,Bodily Injury Claims
+1075,1018657,21657,80,82500,Loss of Value to Vehicle
+654,1017159,20159,79,78000,Loss of Value to Vehicle
+28,1004622,7622,79,77350,Loss of Value to Vehicle
+825,1000815,3815,14,2280,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+284,1009019,12019,82,73870,Loss of Value to Vehicle
+1227,1001312,4312,59,2660,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1088,1005741,8741,83,69720,Loss of Value to Vehicle
+1289,1027330,30330,87,69720,Injury by Uninsured or Underinsured Defendant
+577,1008541,11541,77,65450,Loss of Value to Vehicle
+243,1027006,30006,77,64900,Loss of Value to Vehicle
+146,1001983,2218067,75,64000,Loss of Value to Vehicle
+584,1011828,48015,87,61420,Personal Injury
+549,1019242,22242,76,61360,Loss of Value to Vehicle
+1238,1015302,18302,79,60450,Loss of Value to Vehicle
+1146,1002888,5888,85,59800,Injury by Uninsured or Underinsured Defendant
+1336,1026568,47326,75,56500,Loss of Value to Vehicle
+927,1010214,13214,73,56400,Loss of Value to Vehicle
+147,1015976,46635,84,54290,Personal Injury
+1205,1015302,18302,79,53950,Loss of Value to Vehicle
+700,1005984,8984,86,53580,Injury by Uninsured or Underinsured Defendant
+1135,1026568,47326,75,53500,Loss of Value to Vehicle
+42,1017472,20472,82,53120,Personal Injury
+1050,1013510,16510,75,51000,Loss of Value to Vehicle
+618,1007745,140087,72,50760,Loss of Value to Vehicle
+1175,1004636,7636,84,50730,Injury by Uninsured or Underinsured Defendant
+1063,1022676,25676,82,50630,Personal Injury
+126,1008672,11672,61,50181,Loss of Value to Vehicle
+302,1008213,11213,70,49950,Loss of Value to Vehicle
+1283,1017472,20472,82,49800,Personal Injury
+1066,1001353,4353,29,6210,Injury by Uninsured or Underinsured Defendant
+812,1025252,28252,84,48060,Personal Injury
+446,1028386,31386,59,47500,Loss of Value to Vehicle
+572,1027754,30754,82,47310,Injury by Uninsured or Underinsured Defendant
+1057,1029668,32668,85,46920,Personal Injury
+739,1004464,7464,82,46480,Injury by Uninsured or Underinsured Defendant
+936,1027959,30959,82,46480,Injury by Uninsured or Underinsured Defendant
+795,1024372,27372,78,76110,Loss of Value to Vehicle
+1160,1022333,48325,60,45934,Loss of Value to Vehicle
+627,1001507,4507,37,35840,Loss of Value to Vehicle
+493,1013360,16360,83,43990,Personal Injury
+429,1026673,29673,61,48625,Loss of Value to Vehicle
+1317,1027035,30035,85,43240,Personal Injury
+1130,1005733,8733,82,43160,Injury by Uninsured or Underinsured Defendant
+225,1022085,25085,71,41400,Loss of Value to Vehicle
+1213,1021371,24371,71,41400,Loss of Value to Vehicle
+1346,1002145,5145,75,11500,Property Damage Claims
+882,1007033,10033,57,40950,Loss of Value to Vehicle
+946,1004639,7639,65,40850,Loss of Value to Vehicle
+661,1015411,18411,85,40480,Personal Injury
+997,1001574,48991,85,39560,Injury by Uninsured or Underinsured Defendant
+84,1020373,23373,55,39440,Loss of Value to Vehicle
+134,1002145,5145,75,9500,Property Damage Claims
+754,1027035,30035,85,38640,Personal Injury
+1313,1018643,21643,46,38100,Loss of Value to Vehicle
+559,1001533,4533,51,37620,Loss of Value to Vehicle
+327,1006867,9867,55,37400,Loss of Value to Vehicle
+300,1002906,49247,78,37170,Personal Injury
+1089,1023482,26482,48,36800,Loss of Value to Vehicle
+755,1008016,11016,87,36520,Reimbursement for Property Repairs
+682,1007408,2215709,48,36480,Loss of Value to Vehicle
+991,1001981,4981,86,46060,Injury by Uninsured or Underinsured Defendant
+567,1028499,31499,82,35690,Injury by Uninsured or Underinsured Defendant
+402,1002632,5632,72,7050,Bodily Injury Claims
+47,1023337,26337,61,34621,Loss of Value to Vehicle
+460,1002636,5636,40,9800,Injury by Uninsured or Underinsured Defendant
+1051,1000575,47712,83,34030,Injury by Uninsured or Underinsured Defendant
+244,1016199,19199,44,33930,Loss of Value to Vehicle
+1314,1014754,17754,79,33800,Injury by Uninsured or Underinsured Defendant
+438,1010600,13600,39,33600,Loss of Value to Vehicle
+192,1024521,27521,52,33222,Loss of Value to Vehicle
+871,1007147,48697,87,33200,Reimbursement for Property Repairs
+100,1003629,6629,46,33000,Loss of Value to Vehicle
+1258,1024521,27521,52,32883,Loss of Value to Vehicle
+1293,1002639,5639,54,7140,Property Damage Claims
+605,1020438,23438,38,32480,Loss of Value to Vehicle
+1031,1012688,15688,52,32205,Loss of Value to Vehicle
+500,1001644,4644,51,31680,Loss of Value to Vehicle
+509,1000400,3400,32,31200,Loss of Value to Vehicle
+501,1027024,47651,44,31030,Loss of Value to Vehicle
+322,1008930,11930,75,31000,Personal Injury
+983,1013272,16272,75,31000,Personal Injury
+1106,1005889,8889,54,30940,Loss of Value to Vehicle
+1045,1010040,13040,34,30856,Loss of Value to Vehicle
+1253,1006011,9011,44,30160,Loss of Value to Vehicle
+1004,1023226,26226,33,30000,Loss of Value to Vehicle
+1077,1011343,133950,80,30000,Injury by Uninsured or Underinsured Defendant
+1105,1021632,24632,26,29900,Loss of Value to Vehicle
+552,1025471,2217162,74,29890,Injury by Uninsured or Underinsured Defendant
+151,1002639,5639,54,6460,Property Damage Claims
+68,1007178,10178,55,29240,Loss of Value to Vehicle
+949,1002811,5811,20,3360,Bodily Injury Claims
+23,1003197,45967,43,29000,Loss of Value to Vehicle
+120,1021764,48839,42,29000,Loss of Value to Vehicle
+265,1002940,5940,30,2160,Bodily Injury Claims
+337,1009638,12638,33,28500,Loss of Value to Vehicle
+604,1018643,21643,46,28500,Loss of Value to Vehicle
+56,1002941,5941,40,13720,Injury by Uninsured or Underinsured Defendant
+783,1019760,22760,87,28220,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1168,1014986,141243,76,44720,Loss of Value to Vehicle
+449,1016873,19873,85,27600,Injury by Uninsured or Underinsured Defendant
+381,1003307,6307,32,1680,Third Party Car Insurance Claims
+1329,1009638,12638,33,27250,Loss of Value to Vehicle
+1250,1022839,25839,75,26500,Personal Injury
+1277,1022839,25839,75,26500,Personal Injury
+420,1006183,9183,21,26400,Loss of Value to Vehicle
+270,1003406,6406,57,2100,Bodily Injury Claims
+372,1020427,23427,85,25760,Personal Injury
+1155,1011042,14042,30,25680,Loss of Value to Vehicle
+686,1022839,25839,75,25500,Personal Injury
+917,1003463,6463,10,1700,Third Party Car Insurance Claims
+1003,1001100,4100,38,25480,Loss of Value to Vehicle
+701,1010996,13996,65,25370,Injury by Uninsured or Underinsured Defendant
+129,1002537,2216810,74,24990,Personal Injury
+288,1028394,31394,48,40960,Loss of Value to Vehicle
+475,1006631,114026,84,24920,Personal Injury
+1113,1003649,6649,54,5780,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+979,1024892,2218252,87,24900,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1029,1009126,12126,87,24900,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1046,1016911,19911,85,24840,Reimbursement for Property Repairs
+1154,1001629,4629,63,24800,Personal Injury
+910,1014754,17754,79,24700,Injury by Uninsured or Underinsured Defendant
+6,1004884,7884,75,24500,Personal Injury
+908,1023336,26336,86,24440,Injury by Uninsured or Underinsured Defendant
+1223,1013933,2220446,86,24440,Property Damage Claims
+25,1003945,6945,46,2100,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+854,1006011,9011,44,24360,Loss of Value to Vehicle
+335,1004034,7034,77,3300,Third Party Car Insurance Claims
+499,1002989,5989,59,24320,Personal Injury
+216,1004079,7079,20,13650,Personal Injury
+677,1019904,22904,73,23970,Personal Injury
+973,1023997,26997,85,23920,Personal Injury
+494,1011819,14819,33,23750,Loss of Value to Vehicle
+1301,1010342,13342,17,23730,Loss of Value to Vehicle
+1331,1019723,22723,74,23520,Injury by Uninsured or Underinsured Defendant
+768,1018767,143980,86,23500,Injury by Uninsured or Underinsured Defendant
+926,1004112,7112,41,2565,Third Party Car Insurance Claims
+1226,1021459,24459,76,23400,Personal Injury
+1264,1020481,23481,87,23240,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+359,1013764,16764,17,23100,Loss of Value to Vehicle
+573,1004305,7305,79,10400,Third Party Car Insurance Claims
+392,1029172,32172,13,22990,Loss of Value to Vehicle
+1310,1011756,47236,35,27810,Loss of Value to Vehicle
+1319,1026184,133219,73,22560,Personal Injury
+1054,1000736,3736,68,22440,Personal Injury
+64,1004431,7431,2,4940,Personal Injury
+540,1008289,11289,76,21840,Injury by Uninsured or Underinsured Defendant
+905,1006470,9470,30,21600,Loss of Value to Vehicle
+523,1028361,31361,8,21420,Loss of Value to Vehicle
+1198,1028643,31643,80,25500,Injury by Uninsured or Underinsured Defendant
+1188,1006626,9626,85,21160,Property Damage Claims
+519,1026184,133219,73,21150,Personal Injury
+484,1004277,7277,68,21120,Injury by Uninsured or Underinsured Defendant
+784,1027765,30765,75,21000,Injury by Uninsured or Underinsured Defendant
+756,1017061,20061,23,20900,Loss of Value to Vehicle
+869,1004539,7539,45,3190,Bodily Injury Claims
+130,1019577,22577,73,20680,Personal Injury
+1217,1000235,3235,58,20650,Injury by Uninsured or Underinsured Defendant
+912,1008814,11814,10,20400,Loss of Value to Vehicle
+361,1025811,28811,58,20300,Personal Injury
+346,1023450,26450,80,20250,Property Damage Claims
+91,1019723,22723,74,20090,Injury by Uninsured or Underinsured Defendant
+1165,1005059,8059,86,27260,Injury by Uninsured or Underinsured Defendant
+1298,1017794,2218359,83,19920,Reimbursement for Property Repairs
+746,1017182,20182,8,19890,Loss of Value to Vehicle
+156,1007848,10848,24,19800,Loss of Value to Vehicle
+228,1010599,13599,49,19520,Personal Injury
+8,1008486,11486,8,19380,Loss of Value to Vehicle
+458,1008312,11312,10,19380,Loss of Value to Vehicle
+609,1026548,29548,53,19380,Injury by Uninsured or Underinsured Defendant
+1174,1001856,2216464,59,19380,Personal Injury
+942,1006093,9093,51,19140,Injury by Uninsured or Underinsured Defendant
+1278,1029943,32943,51,19140,Personal Injury
+672,1002138,5138,83,19090,Reimbursement for Property Repairs
+1214,1021573,2219913,60,18914,Personal Injury
+1187,1005097,8097,76,7800,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+83,1012802,15802,57,18550,Injury by Uninsured or Underinsured Defendant
+365,1016905,19905,53,18360,Injury by Uninsured or Underinsured Defendant
+285,1005520,8520,72,18330,Injury by Uninsured or Underinsured Defendant
+1036,1027013,2217752,52,18306,Personal Injury
+1062,1028231,31231,87,18260,Bodily Injury Claims
+1116,1001659,4659,87,18260,Bodily Injury Claims
+161,1023323,26323,38,18200,Injury by Uninsured or Underinsured Defendant
+1161,1005254,8254,69,3600,Bodily Injury Claims
+444,1014243,17243,55,18020,Personal Injury
+354,1016663,19663,80,18000,Property Damage Claims
+103,1021711,24711,44,17980,Injury by Uninsured or Underinsured Defendant
+1078,1018154,2215411,86,17860,Personal Injury
+1149,1007298,10298,84,17800,Property Damage Claims
+277,1009291,12291,43,17690,Injury by Uninsured or Underinsured Defendant
+766,1028235,31235,9,17680,Loss of Value to Vehicle
+43,1010342,13342,17,17640,Loss of Value to Vehicle
+404,1002959,5959,40,17640,Injury by Uninsured or Underinsured Defendant
+80,1012440,15440,81,17600,Injury by Uninsured or Underinsured Defendant
+1119,1026475,29475,81,17600,Property Damage Claims
+58,1005480,8480,42,4930,Third Party Car Insurance Claims
+481,1021187,24187,4,17440,Loss of Value to Vehicle
+53,1013048,16048,36,17360,Injury by Uninsured or Underinsured Defendant
+957,1021063,2215573,35,17280,Injury by Uninsured or Underinsured Defendant
+876,1018065,21065,80,17250,Property Damage Claims
+1262,1006588,9588,4,17120,Loss of Value to Vehicle
+837,1000490,3490,41,17100,Injury by Uninsured or Underinsured Defendant
+850,1028507,31507,46,17100,Personal Injury
+1282,1023258,26258,36,17080,Personal Injury
+963,1029590,32590,55,17000,Personal Injury
+673,1015119,18119,3,16950,Loss of Value to Vehicle
+646,1005629,8629,35,1620,Third Party Car Insurance Claims
+1255,1015590,18590,79,16900,Personal Injury
+445,1016655,2217028,73,24910,Personal Injury
+375,1016357,19357,81,16800,Property Damage Claims
+998,1018850,120503,81,16800,Reimbursement for Property Repairs
+769,1009667,12667,59,16720,Personal Injury
+582,1005958,8958,79,6500,Bodily Injury Claims
+1005,1029076,114468,87,16600,Third Party Car Insurance Claims
+401,1026756,29756,85,16560,Bodily Injury Claims
+1210,1014992,17992,43,16530,Personal Injury
+904,1011756,47236,35,24300,Loss of Value to Vehicle
+1276,1009667,12667,59,16340,Personal Injury
+863,1017185,20185,3,16200,Loss of Value to Vehicle
+1340,1028361,31361,8,16150,Loss of Value to Vehicle
+742,1027233,30233,84,16020,Third Party Car Insurance Claims
+964,1016192,19192,84,16020,Bodily Injury Claims
+115,1006588,9588,4,16000,Loss of Value to Vehicle
+1127,1009749,12749,81,16000,Property Damage Claims
+125,1026502,29502,79,22750,Injury by Uninsured or Underinsured Defendant
+1246,1013933,2220446,86,15980,Property Damage Claims
+579,1026965,29965,40,15960,Personal Injury
+732,1003106,6106,33,15750,Personal Injury
+55,1006524,9524,83,14940,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+835,1000707,3707,36,15680,Personal Injury
+953,1028604,31604,71,15640,Injury by Uninsured or Underinsured Defendant
+1186,1023216,26216,85,15640,Third Party Car Insurance Claims
+877,1002845,5845,3,15600,Loss of Value to Vehicle
+1288,1021635,24635,76,15600,Personal Injury
+249,1001098,4098,60,15440,Personal Injury
+113,1002216,5216,37,15400,Injury by Uninsured or Underinsured Defendant
+885,1023258,26258,36,15400,Personal Injury
+972,1017877,20877,70,15300,Injury by Uninsured or Underinsured Defendant
+1228,1013599,16599,53,15300,Injury by Uninsured or Underinsured Defendant
+894,1022187,25187,63,15200,Personal Injury
+532,1028358,31358,84,15130,Property Damage Claims
+878,1023528,47336,66,15050,Injury by Uninsured or Underinsured Defendant
+651,1000649,3649,86,15040,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+804,1029530,32530,86,15040,Third Party Car Insurance Claims
+1216,1006767,9767,87,11620,Third Party Car Insurance Claims
+690,1012196,15196,80,15000,Reimbursement for Property Repairs
+723,1007183,10183,70,4950,Third Party Car Insurance Claims
+414,1004081,7081,87,14940,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+504,1021866,2216408,83,14940,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+616,1001111,4111,83,14940,Third Party Car Insurance Claims
+890,1024438,27438,83,14940,Bodily Injury Claims
+1085,1014475,17475,82,14940,Bodily Injury Claims
+1131,1018975,21975,87,14940,Third Party Car Insurance Claims
+1221,1023082,2217419,83,14940,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1251,1021612,49194,77,14850,Reimbursement for Property Repairs
+1302,1021612,49194,77,14850,Reimbursement for Property Repairs
+970,1023796,26796,62,14820,Personal Injury
+1034,1017990,20990,85,21160,Personal Injury
+596,1026915,29915,39,14560,Injury by Uninsured or Underinsured Defendant
+245,1029178,46804,59,14440,Personal Injury
+518,1007996,10996,81,14400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+900,1016411,19411,81,14400,Bodily Injury Claims
+1123,1001050,4050,81,14400,Bodily Injury Claims
+171,1021918,24918,2,14300,Loss of Value to Vehicle
+1169,1011298,14298,79,14300,Property Damage Claims
+448,1018124,21124,55,14280,Personal Injury
+1203,1027510,30510,80,14250,Property Damage Claims
+975,1007286,10286,10,16660,Loss of Value to Vehicle
+734,1007329,10329,42,18850,Personal Injury
+1230,1018959,21959,84,14240,Third Party Car Insurance Claims
+144,1023106,26106,82,14110,Bodily Injury Claims
+576,1004656,7656,82,14110,Third Party Car Insurance Claims
+647,1009572,12572,82,14110,Property Damage Claims
+1111,1006722,49156,82,14110,Bodily Injury Claims
+1219,1003823,6823,9,14110,Loss of Value to Vehicle
+1136,1008155,11155,86,14100,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+459,1029825,32825,56,17500,Injury by Uninsured or Underinsured Defendant
+1185,1020902,23902,76,14040,Injury by Uninsured or Underinsured Defendant
+601,1006159,9159,61,14004,Injury by Uninsured or Underinsured Defendant
+308,1028198,31198,57,14000,Personal Injury
+733,1021771,24771,3,13950,Loss of Value to Vehicle
+36,1025452,28452,53,13940,Personal Injury
+1320,1006093,9093,51,13860,Injury by Uninsured or Underinsured Defendant
+124,1022678,25678,26,13800,Personal Injury
+242,1015545,18545,85,13800,Bodily Injury Claims
+291,1021448,24448,35,13770,Injury by Uninsured or Underinsured Defendant
+280,1009995,12995,51,16830,Personal Injury
+712,1008056,11056,40,13720,Personal Injury
+24,1018550,21550,59,13680,Injury by Uninsured or Underinsured Defendant
+841,1007546,10546,80,7500,Bodily Injury Claims
+1333,1019584,22584,22,13640,Injury by Uninsured or Underinsured Defendant
+1245,1005520,8520,72,13630,Injury by Uninsured or Underinsured Defendant
+613,1028644,31644,81,13600,Bodily Injury Claims
+1082,1026975,29975,81,13600,Bodily Injury Claims
+1225,1010912,13912,60,13510,Personal Injury
+10,1002747,5747,75,13500,Reimbursement for Property Repairs
+328,1002278,5278,80,13500,Bodily Injury Claims
+834,1013015,16015,86,15040,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+933,1011241,14241,30,13440,Personal Injury
+1207,1002937,5937,1,13420,Loss of Value to Vehicle
+184,1007926,10926,66,11610,Property Damage Claims
+872,1016649,19649,65,13330,Injury by Uninsured or Underinsured Defendant
+995,1027166,30166,82,13280,Third Party Car Insurance Claims
+1042,1021708,24708,82,13280,Third Party Car Insurance Claims
+426,1008000,11000,77,8250,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1157,1008744,11744,83,13280,Property Damage Claims
+1308,1028144,31144,82,13280,Bodily Injury Claims
+95,1006204,9204,33,13250,Injury by Uninsured or Underinsured Defendant
+486,1005599,8599,20,13230,Injury by Uninsured or Underinsured Defendant
+490,1028234,31234,74,13230,Injury by Uninsured or Underinsured Defendant
+1145,1008070,11070,86,10340,Third Party Car Insurance Claims
+887,1029943,32943,51,13200,Personal Injury
+290,1015293,18293,86,13160,Third Party Car Insurance Claims
+1126,1029998,32998,75,13000,Property Damage Claims
+1237,1005806,8806,79,13000,Property Damage Claims
+177,1022164,25164,78,12980,Property Damage Claims
+174,1008495,11495,32,12960,Personal Injury
+1236,1003179,6179,31,12960,Injury by Uninsured or Underinsured Defendant
+993,1001138,4138,85,12880,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1038,1000718,3718,85,12880,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+630,1026767,29767,81,12800,Bodily Injury Claims
+1270,1023622,26622,25,12760,Personal Injury
+987,1014843,17843,43,12470,Injury by Uninsured or Underinsured Defendant
+836,1018766,21766,84,12460,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+315,1008092,11092,44,32770,Loss of Value to Vehicle
+169,1029007,32007,82,12450,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+752,1009446,12446,82,12450,Third Party Car Insurance Claims
+978,1017794,2218359,83,12450,Reimbursement for Property Repairs
+224,1008400,11400,56,3500,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+565,1007413,10413,78,12390,Reimbursement for Property Repairs
+939,1019229,22229,78,12390,Reimbursement for Property Repairs
+170,1011561,14561,79,12350,Reimbursement for Property Repairs
+634,1017391,20391,37,12320,Personal Injury
+940,1010893,13893,43,12180,Injury by Uninsured or Underinsured Defendant
+307,1027288,30288,25,12100,Personal Injury
+781,1027251,30251,77,12100,Reimbursement for Property Repairs
+698,1010993,13993,81,12000,Third Party Car Insurance Claims
+721,1002130,5130,81,12000,Bodily Injury Claims
+813,1012269,15269,59,14060,Injury by Uninsured or Underinsured Defendant
+1108,1000130,3130,75,12000,Reimbursement for Property Repairs
+1184,1010864,13864,80,12000,Bodily Injury Claims
+1323,1007996,10996,81,12000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+645,1008676,11676,14,11970,Injury by Uninsured or Underinsured Defendant
+198,1021635,24635,76,11960,Personal Injury
+1194,1017225,20225,85,11960,Bodily Injury Claims
+662,1006427,9427,55,11900,Injury by Uninsured or Underinsured Defendant
+389,1009483,12483,14,11780,Personal Injury
+852,1008622,11622,57,5950,Bodily Injury Claims
+840,1008908,11908,10,1870,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+860,1020337,2220698,83,11620,Bodily Injury Claims
+976,1022341,25341,87,11620,Third Party Car Insurance Claims
+1074,1020481,23481,87,11620,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+2,1002163,5163,27,13340,Personal Injury
+1259,1013020,16020,83,11620,Bodily Injury Claims
+1067,1020170,47812,87,13280,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+296,1018623,21623,84,11570,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+637,1009127,12127,29,7130,Injury by Uninsured or Underinsured Defendant
+1040,1020114,23114,84,11570,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+44,1009195,12195,55,5440,Bodily Injury Claims
+1095,1009297,12297,1,3080,Injury by Uninsured or Underinsured Defendant
+196,1024702,27702,23,11440,Injury by Uninsured or Underinsured Defendant
+317,1009303,12303,67,6450,Reimbursement for Property Repairs
+1061,1017554,20554,72,11280,Property Damage Claims
+652,1023622,26622,25,11220,Personal Injury
+1044,1019584,22584,22,11220,Injury by Uninsured or Underinsured Defendant
+1071,1023194,26194,40,11200,Injury by Uninsured or Underinsured Defendant
+154,1000112,3112,2,11180,Loss of Value to Vehicle
+282,1023787,26787,67,11180,Reimbursement for Property Repairs
+477,1020889,23889,65,11180,Reimbursement for Property Repairs
+670,1006157,9157,1,13200,Loss of Value to Vehicle
+1055,1025041,28041,79,11050,Reimbursement for Property Repairs
+757,1027043,30043,85,11040,Bodily Injury Claims
+166,1018704,21704,13,11020,Injury by Uninsured or Underinsured Defendant
+30,1028708,31708,75,11000,Reimbursement for Property Repairs
+606,1000147,3147,75,11000,Property Damage Claims
+1296,1009849,47831,77,11000,Reimbursement for Property Repairs
+279,1021515,24515,76,10920,Property Damage Claims
+1303,1000310,3310,19,10920,Personal Injury
+649,1027977,30977,34,10906,Personal Injury
+621,1017482,20482,63,10800,Reimbursement for Property Repairs
+476,1018045,21045,82,10790,Bodily Injury Claims
+966,1004240,7240,83,10790,Bodily Injury Claims
+1008,1007575,10575,83,10790,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1247,1028234,31234,74,10780,Injury by Uninsured or Underinsured Defendant
+1328,1007784,10784,1,10780,Loss of Value to Vehicle
+745,1026210,29210,44,10730,Injury by Uninsured or Underinsured Defendant
+770,1024432,27432,84,10680,Bodily Injury Claims
+1182,1020516,23516,84,10680,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+60,1006238,2218846,78,10620,Bodily Injury Claims
+1030,1014467,17467,78,10620,Bodily Injury Claims
+1122,1029342,2220117,31,10560,Injury by Uninsured or Underinsured Defendant
+744,1009849,47831,77,10450,Reimbursement for Property Repairs
+545,1016337,19337,12,10440,Injury by Uninsured or Underinsured Defendant
+619,1023781,26781,43,10440,Personal Injury
+1118,1002114,46231,42,10440,Injury by Uninsured or Underinsured Defendant
+571,1005806,8806,79,10400,Property Damage Claims
+751,1016128,19128,81,12000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+883,1015303,18303,79,10400,Third Party Car Insurance Claims
+928,1023416,26416,79,10400,Third Party Car Insurance Claims
+943,1004332,7332,81,10400,Bodily Injury Claims
+951,1026411,29411,79,10400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1178,1015590,18590,79,10400,Personal Injury
+15,1028708,2219355,21,10340,Personal Injury
+724,1023646,26646,65,11180,Reimbursement for Property Repairs
+1153,1013854,16854,73,10340,Reimbursement for Property Repairs
+888,1009651,12651,50,5120,Third Party Car Insurance Claims
+183,1013914,2219621,65,10320,Reimbursement for Property Repairs
+1172,1025231,28231,44,10150,Personal Injury
+1170,1019430,22430,85,10120,Bodily Injury Claims
+1201,1016594,19594,78,10030,Third Party Car Insurance Claims
+1232,1015207,18207,75,10000,Property Damage Claims
+632,1009775,12775,54,3400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1013,1014388,17388,82,9960,Third Party Car Insurance Claims
+66,1009784,12784,26,2760,Bodily Injury Claims
+893,1009790,12790,84,12460,Third Party Car Insurance Claims
+107,1020589,23589,76,9880,Property Damage Claims
+990,1014246,2220848,18,9870,Personal Injury
+17,1012323,116780,8,9860,Personal Injury
+202,1006896,9896,7,9860,Personal Injury
+468,1009844,12844,79,18200,Injury by Uninsured or Underinsured Defendant
+321,1008494,47628,80,9750,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+422,1015024,18024,79,9750,Personal Injury
+718,1027459,30459,79,9750,Bodily Injury Claims
+21,1017748,20748,71,9660,Property Damage Claims
+1294,1022187,25187,63,9600,Personal Injury
+1344,1010993,13993,81,9600,Third Party Car Insurance Claims
+1162,1007623,10623,83,9960,Bodily Injury Claims
+1027,1009975,12975,60,2316,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+241,1025485,28485,14,9500,Personal Injury
+815,1018957,21957,75,9500,Reimbursement for Property Repairs
+454,1007784,10784,1,9460,Loss of Value to Vehicle
+457,1003548,6548,65,9460,Personal Injury
+1316,1020889,23889,65,9460,Reimbursement for Property Repairs
+599,1000443,3443,56,9450,Reimbursement for Property Repairs
+856,1017765,20765,57,9450,Property Damage Claims
+1084,1006496,47066,57,9450,Reimbursement for Property Repairs
+351,1005012,8012,5,9440,Personal Injury
+1284,1016060,19060,78,9440,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+931,1005343,8343,76,9360,Property Damage Claims
+376,1026808,29808,61,9336,Reimbursement for Property Repairs
+416,1000310,3310,19,9240,Personal Injury
+1271,1001646,4646,64,9240,Property Damage Claims
+358,1021071,24071,85,9200,Bodily Injury Claims
+555,1011366,14366,85,9200,Third Party Car Insurance Claims
+772,1011588,14588,26,9200,Injury by Uninsured or Underinsured Defendant
+954,1004750,7750,71,9200,Personal Injury
+63,1013327,16327,14,9120,Injury by Uninsured or Underinsured Defendant
+133,1015684,18684,59,9120,Reimbursement for Property Repairs
+820,1009409,12409,41,9120,Personal Injury
+139,1027834,2218883,79,9100,Bodily Injury Claims
+612,1002335,2215633,65,9030,Reimbursement for Property Repairs
+524,1022058,25058,75,9000,Third Party Car Insurance Claims
+1304,1005822,8822,75,9000,Bodily Injury Claims
+982,1023118,26118,82,9960,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+846,1003497,2218992,45,8990,Personal Injury
+222,1025182,28182,49,8960,Personal Injury
+148,1005635,8635,84,8900,Third Party Car Insurance Claims
+1265,1028557,2217311,78,8850,Third Party Car Insurance Claims
+517,1008224,11224,76,8840,Third Party Car Insurance Claims
+679,1001457,4457,77,8800,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1211,1021612,49194,77,8800,Reimbursement for Property Repairs
+1324,1024379,47400,77,8800,Bodily Injury Claims
+205,1022717,25717,58,8750,Reimbursement for Property Repairs
+262,1026014,29014,45,8700,Personal Injury
+292,1026053,29053,45,8700,Injury by Uninsured or Underinsured Defendant
+528,1010153,13153,63,4400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+273,1026219,29219,25,8580,Personal Injury
+1032,1008012,11012,75,8500,Third Party Car Insurance Claims
+1193,1003667,6667,75,8500,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1341,1027921,30921,75,8500,Bodily Injury Claims
+212,1021281,24281,86,8460,Bodily Injury Claims
+396,1010323,13323,79,16900,Injury by Uninsured or Underinsured Defendant
+301,1022048,25048,86,8460,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+254,1010643,13643,15,3800,Injury by Uninsured or Underinsured Defendant
+689,1014810,17810,86,8460,Bodily Injury Claims
+1120,1010233,13233,86,8460,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+819,1023716,26716,2,8450,Injury by Uninsured or Underinsured Defendant
+808,1022453,25453,45,8410,Injury by Uninsured or Underinsured Defendant
+803,1010685,13685,43,2320,Third Party Car Insurance Claims
+1177,1010798,13798,71,8280,Property Damage Claims
+325,1025211,28211,43,8700,Injury by Uninsured or Underinsured Defendant
+968,1009812,12812,77,8250,Bodily Injury Claims
+1065,1026382,29382,77,8250,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1200,1005948,8948,51,8250,Reimbursement for Property Repairs
+1101,1011039,14039,21,3960,Third Party Car Insurance Claims
+932,1000500,47521,20,8190,Injury by Uninsured or Underinsured Defendant
+858,1022618,25618,54,8160,Personal Injury
+1164,1022135,25135,55,8160,Reimbursement for Property Repairs
+194,1019539,22539,24,8140,Injury by Uninsured or Underinsured Defendant
+70,1021013,24013,16,8200,Injury by Uninsured or Underinsured Defendant
+239,1008816,11816,46,8100,Personal Injury
+1094,1026426,29426,70,8100,Bodily Injury Claims
+1248,1018623,21623,84,8010,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+711,1028068,31068,49,8000,Personal Injury
+763,1012682,15682,75,8000,Third Party Car Insurance Claims
+981,1028142,31142,72,7990,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+665,1007021,10021,72,7990,Property Damage Claims
+482,1011739,14739,40,11480,Injury by Uninsured or Underinsured Defendant
+94,1028893,31893,59,7980,Reimbursement for Property Repairs
+771,1011745,14745,59,4180,Third Party Car Insurance Claims
+1068,1011751,14751,46,7800,Injury by Uninsured or Underinsured Defendant
+342,1024252,2219535,23,7920,Injury by Uninsured or Underinsured Defendant
+930,1009384,12384,23,7920,Personal Injury
+1181,1014614,17614,55,7820,Property Damage Claims
+780,1012049,15049,40,7000,Injury by Uninsured or Underinsured Defendant
+1353,1009049,12049,70,7650,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+19,1001355,4355,17,7560,Injury by Uninsured or Underinsured Defendant
+433,1002436,5436,61,7780,Property Damage Claims
+958,1011067,14067,77,7700,Third Party Car Insurance Claims
+805,1012338,15338,77,22000,Injury by Uninsured or Underinsured Defendant
+715,1009448,12448,78,7670,Bodily Injury Claims
+313,1016581,2218363,70,7650,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+945,1002556,5556,70,7650,Third Party Car Insurance Claims
+775,1012400,15400,75,8000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+608,1012429,15429,87,11620,Third Party Car Insurance Claims
+109,1015298,49402,39,7560,Injury by Uninsured or Underinsured Defendant
+200,1017466,20466,39,7560,Injury by Uninsured or Underinsured Defendant
+1039,1010629,13629,37,7560,Personal Injury
+96,1012497,15497,72,5640,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1229,1005191,8191,18,7560,Injury by Uninsured or Underinsured Defendant
+278,1013541,16541,86,7520,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+442,1004009,7009,73,7520,Reimbursement for Property Repairs
+1195,1017189,20189,73,7520,Third Party Car Insurance Claims
+22,1024851,27851,75,7500,Reimbursement for Property Repairs
+283,1003264,6264,46,7500,Property Damage Claims
+896,1027016,30016,75,7500,Third Party Car Insurance Claims
+790,1008544,11544,67,7310,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1206,1001713,4713,75,7500,Bodily Injury Claims
+59,1023888,26888,68,7480,Third Party Car Insurance Claims
+110,1001638,4638,55,7480,Property Damage Claims
+251,1024462,27462,8,7480,Injury by Uninsured or Underinsured Defendant
+1007,1004043,7043,83,7470,Third Party Car Insurance Claims
+1099,1015462,1146,82,7470,Third Party Car Insurance Claims
+1347,1018045,21045,82,7470,Bodily Injury Claims
+1159,1007278,10278,62,7020,Reimbursement for Property Repairs
+383,1015225,2218368,61,7391,Injury by Uninsured or Underinsured Defendant
+798,1016171,19171,49,7360,Reimbursement for Property Repairs
+697,1025539,28539,58,7350,Personal Injury
+1204,1013965,16965,74,7350,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+180,1013350,16350,55,9520,Injury by Uninsured or Underinsured Defendant
+252,1016356,19356,37,7280,Reimbursement for Property Repairs
+692,1008441,11441,45,7250,Reimbursement for Property Repairs
+210,1019016,22016,70,7200,Third Party Car Insurance Claims
+274,1017327,20327,81,7200,Third Party Car Insurance Claims
+594,1008238,11238,81,7200,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+704,1013972,16972,70,7200,Bodily Injury Claims
+708,1003998,6998,69,7200,Third Party Car Insurance Claims
+713,1003431,6431,69,7200,Third Party Car Insurance Claims
+821,1004477,7477,70,7200,Reimbursement for Property Repairs
+598,1013511,16511,56,4200,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1197,1027286,30286,79,7150,Third Party Car Insurance Claims
+220,1001646,4646,64,7140,Property Damage Claims
+977,1024497,47144,45,6960,Property Damage Claims
+498,1026549,136177,59,6460,Bodily Injury Claims
+99,1009182,12182,52,7119,Reimbursement for Property Repairs
+421,1019199,22199,78,7080,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+360,1013677,16677,66,3010,Third Party Car Insurance Claims
+423,1025111,28111,73,7050,Third Party Car Insurance Claims
+114,1012646,15646,48,6400,Property Damage Claims
+331,1026779,29779,68,7040,Third Party Car Insurance Claims
+631,1004702,2217283,68,7040,Third Party Car Insurance Claims
+922,1025349,28349,25,7040,Injury by Uninsured or Underinsured Defendant
+1052,1024529,2218338,15,6200,Personal Injury
+855,1013818,16818,74,5390,Third Party Car Insurance Claims
+234,1022125,25125,75,7000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+466,1018961,21961,58,7000,Reimbursement for Property Repairs
+635,1024273,27273,75,7000,Bodily Injury Claims
+728,1013102,16102,75,7000,Third Party Car Insurance Claims
+403,1013899,16899,4,960,Bodily Injury Claims
+46,1013924,16924,69,4050,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+521,1014135,17135,56,5950,Bodily Injury Claims
+761,1006516,9516,60,6948,Third Party Car Insurance Claims
+1295,1012670,49491,60,6948,Reimbursement for Property Repairs
+427,1016078,19078,51,6930,Property Damage Claims
+88,1014180,17180,42,4640,Property Damage Claims
+1332,1008816,11816,46,6900,Personal Injury
+349,1015196,18196,67,6880,Bodily Injury Claims
+1279,1014180,17180,42,4350,Property Damage Claims
+778,1012942,45418,67,6880,Property Damage Claims
+1011,1014429,17429,80,28500,Injury by Uninsured or Underinsured Defendant
+610,1023704,46178,55,6800,Reimbursement for Property Repairs
+1079,1010503,13503,54,6800,Reimbursement for Property Repairs
+1000,1008903,11903,76,6760,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+26,1000716,2215974,40,6720,Reimbursement for Property Repairs
+237,1010799,13799,48,6720,Reimbursement for Property Repairs
+749,1029379,32379,64,6720,Third Party Car Insurance Claims
+1035,1014854,17854,56,7700,Reimbursement for Property Repairs
+1196,1007621,10621,37,6720,Reimbursement for Property Repairs
+1015,1007666,10666,44,6670,Reimbursement for Property Repairs
+611,1002964,5964,13,6650,Personal Injury
+541,1028144,31144,82,6640,Bodily Injury Claims
+547,1019736,22736,83,6640,Third Party Car Insurance Claims
+843,1017163,20163,83,6640,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1037,1002881,5881,83,6640,Bodily Injury Claims
+263,1009500,12500,51,6600,Reimbursement for Property Repairs
+276,1007945,10945,51,6600,Reimbursement for Property Repairs
+336,1004977,7977,86,6580,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1091,1015014,18014,5,1600,Bodily Injury Claims
+624,1002622,114230,73,6580,Third Party Car Insurance Claims
+899,1028665,2215982,20,6510,Personal Injury
+116,1015529,18529,16,12400,Injury by Uninsured or Underinsured Defendant
+829,1029981,129122,75,6500,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1176,1003709,6709,79,6500,Third Party Car Insurance Claims
+367,1016060,19060,78,6490,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+432,1029316,2217227,78,6490,Third Party Car Insurance Claims
+595,1015001,18001,78,6490,Bodily Injury Claims
+181,1010977,13977,30,6480,Reimbursement for Property Repairs
+34,1011489,14489,55,6460,Reimbursement for Property Repairs
+89,1015964,18964,8,6460,Injury by Uninsured or Underinsured Defendant
+1112,1015802,18802,84,14240,Reimbursement for Property Repairs
+623,1027942,30942,75,6000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+339,1016150,19150,2,2730,Reimbursement for Property Repairs
+886,1009800,12800,65,6450,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1257,1000267,3267,65,6450,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+71,1007487,10487,28,6440,Personal Injury
+163,1024297,27297,28,6440,Injury by Uninsured or Underinsured Defendant
+629,1007301,10301,85,6440,Third Party Car Insurance Claims
+938,1016516,19516,79,7150,Third Party Car Insurance Claims
+435,1001411,4411,81,6400,Third Party Car Insurance Claims
+447,1009972,1328,63,6400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+992,1011249,14249,74,6370,Bodily Injury Claims
+512,1012812,15812,64,6300,Bodily Injury Claims
+659,1006150,9150,56,6300,Bodily Injury Claims
+862,1018611,21611,58,6300,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1080,1013992,16992,56,6300,Bodily Injury Claims
+731,1014172,17172,41,6270,Property Damage Claims
+558,1014476,17476,33,6250,Reimbursement for Property Repairs
+903,1003047,6047,33,6250,Reimbursement for Property Repairs
+271,1027408,30408,31,6240,Personal Injury
+607,1013489,16489,61,6224,Bodily Injury Claims
+1056,1016916,19916,77,3850,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+363,1017537,20537,63,4800,Bodily Injury Claims
+944,1001296,2218235,68,6160,Bodily Injury Claims
+1325,1000707,3707,36,6160,Personal Injury
+356,1028046,31046,53,6120,Bodily Injury Claims
+424,1025858,28858,55,6120,Bodily Injury Claims
+502,1009011,2219315,55,6120,Reimbursement for Property Repairs
+817,1000431,2218628,55,6120,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+870,1019500,126691,55,6120,Bodily Injury Claims
+411,1017442,20442,34,6118,Property Damage Claims
+522,1003115,6115,73,6110,Third Party Car Insurance Claims
+845,1025212,28212,73,6110,Third Party Car Insurance Claims
+1300,1026699,47718,73,6110,Third Party Car Insurance Claims
+213,1026367,29367,52,6102,Bodily Injury Claims
+1076,1021478,24478,52,6102,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+229,1007818,10818,65,6020,Bodily Injury Claims
+135,1008750,11750,75,6000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+160,1022090,25090,16,6000,Injury by Uninsured or Underinsured Defendant
+465,1015901,18901,75,6000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+585,1012548,15548,33,6000,Reimbursement for Property Repairs
+722,1010701,13701,79,5850,Bodily Injury Claims
+895,1019206,22206,32,6000,Property Damage Claims
+511,1000855,3855,41,5985,Reimbursement for Property Repairs
+947,1028784,31784,71,5980,Third Party Car Insurance Claims
+664,1017804,20804,20,7980,Injury by Uninsured or Underinsured Defendant
+994,1017845,20845,82,34030,Personal Injury
+1345,1025001,28001,58,5950,Third Party Car Insurance Claims
+218,1003185,6185,21,5940,Property Damage Claims
+272,1004620,7620,51,5940,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+683,1021704,24704,23,5940,Property Damage Claims
+842,1008242,2220750,51,5940,Third Party Car Insurance Claims
+950,1019338,22338,39,5880,Property Damage Claims
+996,1015732,18732,74,5880,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1001,1003211,6211,64,5880,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+74,1011841,14841,62,5850,Property Damage Claims
+952,1012929,15929,52,5763,Bodily Injury Claims
+510,1011910,14910,61,5835,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+373,1008721,11721,82,5810,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+505,1013020,16020,83,5810,Bodily Injury Claims
+674,1014171,17171,82,5810,Third Party Car Insurance Claims
+122,1012670,49491,60,5790,Reimbursement for Property Repairs
+257,1018182,21182,43,5220,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+61,1010034,13034,55,5780,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+390,1015858,18858,54,5780,Bodily Injury Claims
+539,1013564,2219625,55,5780,Bodily Injury Claims
+867,1012905,15905,55,5780,Third Party Car Insurance Claims
+1012,1018453,21453,86,23500,Injury by Uninsured or Underinsured Defendant
+298,1011570,14570,52,5763,Injury by Uninsured or Underinsured Defendant
+266,1018593,21593,5,4320,Property Damage Claims
+82,1020051,23051,50,5760,Property Damage Claims
+149,1012493,15493,50,5760,Third Party Car Insurance Claims
+753,1024026,27026,68,5720,Bodily Injury Claims
+1107,1022986,25986,76,5720,Third Party Car Insurance Claims
+1114,1029313,32313,20,5670,Reimbursement for Property Repairs
+437,1018821,21821,20,3780,Third Party Car Insurance Claims
+289,1021920,24920,51,5610,Bodily Injury Claims
+350,1006490,47577,67,5590,Third Party Car Insurance Claims
+443,1020949,23949,66,5590,Third Party Car Insurance Claims
+1073,1023607,2217326,65,5590,Third Party Car Insurance Claims
+948,1028832,31832,85,5520,Third Party Car Insurance Claims
+1047,1006248,9248,85,5520,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1163,1028743,49613,85,5520,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+303,1006498,9498,77,5500,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+492,1024379,47400,77,5500,Bodily Injury Claims
+720,1008768,2218530,25,5500,Property Damage Claims
+1156,1005822,8822,75,5500,Bodily Injury Claims
+1243,1025941,28941,77,5500,Third Party Car Insurance Claims
+1129,1018991,21991,50,2560,Bodily Injury Claims
+1059,1019763,22763,17,5460,Reimbursement for Property Repairs
+190,1019005,22005,78,3540,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+520,1004503,7503,62,5460,Third Party Car Insurance Claims
+188,1015622,18622,53,5440,Reimbursement for Property Repairs
+546,1001769,4769,48,5440,Bodily Injury Claims
+827,1013871,46203,55,5440,Reimbursement for Property Repairs
+1267,1000431,2218628,55,5440,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1337,1025480,28480,55,5440,Bodily Injury Claims
+440,1007263,2218127,70,5400,Third Party Car Insurance Claims
+513,1020240,23240,70,5400,Third Party Car Insurance Claims
+1179,1026788,29788,70,5400,Bodily Injury Claims
+1281,1028907,31907,70,5400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+553,1019728,22728,86,15980,Third Party Car Insurance Claims
+569,1019863,22863,56,5250,Bodily Injury Claims
+491,1012963,15963,84,5340,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+839,1015610,18610,84,5340,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+740,1020091,23091,37,15680,Injury by Uninsured or Underinsured Defendant
+456,1017640,45881,59,5320,Third Party Car Insurance Claims
+628,1011691,14691,59,5320,Third Party Car Insurance Claims
+1102,1029708,32708,40,5320,Property Damage Claims
+1022,1009858,12858,78,5310,Third Party Car Insurance Claims
+470,1022931,25931,26,5290,Reimbursement for Property Repairs
+1218,1020149,23149,54,20060,Personal Injury
+164,1026070,29070,31,5280,Reimbursement for Property Repairs
+20,1020526,23526,15,23000,Loss of Value to Vehicle
+603,1007613,10613,31,5280,Personal Injury
+785,1013081,16081,51,5280,Bodily Injury Claims
+1241,1029342,2220117,31,5280,Injury by Uninsured or Underinsured Defendant
+127,1005894,8894,68,5280,Bodily Injury Claims
+705,1008561,11561,80,5250,Third Party Car Insurance Claims
+984,1002057,5057,56,5250,Reimbursement for Property Repairs
+1307,1003368,2217140,20,5250,Property Damage Claims
+789,1021270,24270,80,13500,Third Party Car Insurance Claims
+294,1021325,24325,76,11440,Reimbursement for Property Repairs
+384,1024580,27580,79,5200,Third Party Car Insurance Claims
+622,1005780,8780,76,5200,Third Party Car Insurance Claims
+776,1003982,48040,76,5200,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+318,1005586,8586,72,5170,Bodily Injury Claims
+455,1029732,32732,65,5160,Bodily Injury Claims
+408,1016521,19521,41,5130,Reimbursement for Property Repairs
+1244,1021364,24364,6,2880,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+543,1018920,21920,13,5130,Reimbursement for Property Repairs
+90,1018539,21539,48,5120,Bodily Injury Claims
+716,1010991,13991,4,5120,Personal Injury
+694,1021364,24364,6,1920,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1028,1023343,26343,48,5120,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1092,1011889,14889,50,5120,Injury by Uninsured or Underinsured Defendant
+1142,1008299,11299,48,5120,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+374,1014032,17032,55,5100,Reimbursement for Property Repairs
+516,1005839,8839,55,5100,Bodily Injury Claims
+568,1005410,8410,55,5100,Third Party Car Insurance Claims
+625,1004536,128748,46,5100,Bodily Injury Claims
+1020,1010495,13495,54,5100,Reimbursement for Property Repairs
+676,1006869,9869,62,5070,Third Party Car Insurance Claims
+4,1021413,24413,61,5057,Third Party Car Insurance Claims
+201,1029483,32483,61,5057,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+97,1023613,26613,36,5040,Third Party Car Insurance Claims
+560,1000375,3375,30,5040,Reimbursement for Property Repairs
+593,1020550,23550,20,5040,Reimbursement for Property Repairs
+626,1019134,22134,36,5040,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+636,1025065,47662,37,5040,Third Party Car Insurance Claims
+802,1000540,3540,32,5040,Property Damage Claims
+935,1023570,26570,39,5040,Third Party Car Insurance Claims
+967,1003915,6915,64,5040,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1083,1027099,30099,40,5040,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1086,1015595,18595,36,5040,Bodily Injury Claims
+238,1016100,19100,75,5000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+663,1008367,11367,15,5000,Injury by Uninsured or Underinsured Defendant
+417,1007237,10237,83,4980,Bodily Injury Claims
+681,1021321,24321,82,4980,Bodily Injury Claims
+81,1004262,7262,70,4950,Bodily Injury Claims
+179,1018431,48846,51,4950,Reimbursement for Property Repairs
+431,1011799,14799,77,4950,Third Party Car Insurance Claims
+506,1012333,15333,77,4950,Bodily Injury Claims
+85,1021749,24749,84,14240,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1128,1013961,16961,51,4950,Property Damage Claims
+314,1021985,24985,28,2760,Third Party Car Insurance Claims
+717,1022027,25027,77,29150,Injury by Uninsured or Underinsured Defendant
+911,1022067,25067,79,7800,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+293,1003127,6127,43,4930,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+514,1008894,11894,43,4930,Third Party Car Insurance Claims
+848,1029841,32841,43,4930,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1115,1004501,7501,43,4930,Bodily Injury Claims
+1183,1007027,10027,10,4930,Injury by Uninsured or Underinsured Defendant
+1171,1024802,27802,45,5220,Bodily Injury Claims
+195,1011814,14814,57,4900,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+570,1008546,2217376,58,4900,Third Party Car Insurance Claims
+684,1005184,2219703,68,4840,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1026,1002992,46870,25,4840,Property Damage Claims
+451,1022655,25655,71,3220,Bodily Injury Claims
+537,1003646,6646,41,5130,Bodily Injury Claims
+1212,1022909,25909,87,71380,Injury by Uninsured or Underinsured Defendant
+37,1022698,25698,46,4800,Injury by Uninsured or Underinsured Defendant
+830,1009551,12551,59,4940,Bodily Injury Claims
+544,1018749,21749,81,4800,Bodily Injury Claims
+641,1002235,5235,50,4800,Bodily Injury Claims
+828,1009633,12633,50,4800,Bodily Injury Claims
+875,1001298,2216381,81,4800,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1191,1019149,22149,48,4800,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+31,1012244,15244,36,4760,Injury by Uninsured or Underinsured Defendant
+777,1023236,26236,72,7050,Personal Injury
+648,1016103,19103,54,4760,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+816,1006319,9319,40,4760,Third Party Car Insurance Claims
+851,1029556,32556,53,4760,Bodily Injury Claims
+1125,1023736,26736,36,4760,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+388,1010648,13648,52,4746,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+86,1012267,15267,67,4730,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+111,1011797,14797,67,4730,Bodily Injury Claims
+710,1002192,128918,67,4730,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+898,1028557,2217311,78,4720,Third Party Car Insurance Claims
+1138,1016936,19936,78,4720,Bodily Injury Claims
+1305,1026237,29237,78,4720,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1349,1016594,19594,78,4720,Third Party Car Insurance Claims
+1043,1016725,19725,72,4700,Bodily Injury Claims
+1058,1023272,26272,55,3740,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1209,1010142,13142,76,4680,Third Party Car Insurance Claims
+1321,1019841,2215841,76,4680,Bodily Injury Claims
+215,1017699,20699,61,4668,Bodily Injury Claims
+299,1023315,26315,40,8400,Personal Injury
+1266,1004501,7501,43,4640,Bodily Injury Claims
+1224,1001836,4836,60,4632,Bodily Injury Claims
+57,1001038,4038,25,4620,Reimbursement for Property Repairs
+326,1028136,31136,64,4620,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+407,1020092,2220846,23,4620,Reimbursement for Property Repairs
+340,1015401,18401,28,4600,Personal Injury
+366,1028854,31854,8,4590,Property Damage Claims
+495,1007333,48543,35,4590,Bodily Injury Claims
+1133,1009690,2220217,14,4560,Personal Injury
+48,1027965,48725,57,4550,Third Party Car Insurance Claims
+797,1007690,10690,58,4550,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1309,1007329,10329,42,4930,Personal Injury
+104,1008889,11889,12,4500,Property Damage Claims
+106,1019097,22097,47,4500,Third Party Car Insurance Claims
+727,1001231,4231,80,4500,Bodily Injury Claims
+1053,1024001,27001,25,3520,Bodily Injury Claims
+980,1005180,137299,75,4500,Bodily Injury Claims
+1286,1013549,16549,46,4500,Bodily Injury Claims
+18,1010403,13403,38,4480,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+27,1020479,23479,39,4480,Third Party Car Insurance Claims
+382,1003577,6577,6,4480,Injury by Uninsured or Underinsured Defendant
+588,1021150,24150,36,4480,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+653,1003669,6669,40,4480,Bodily Injury Claims
+861,1024793,27793,50,4480,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1110,1013073,16073,48,4480,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+496,1003004,6004,54,4420,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+758,1022344,25344,10,4420,Property Damage Claims
+219,1003368,2217140,20,4830,Property Damage Claims
+1019,1004983,7983,53,4420,Bodily Injury Claims
+378,1016813,19813,17,4410,Property Damage Claims
+330,1025941,28941,77,4400,Third Party Car Insurance Claims
+471,1010698,2220912,24,4400,Property Damage Claims
+574,1024555,27555,23,5280,Injury by Uninsured or Underinsured Defendant
+1140,1002817,5817,68,4400,Bodily Injury Claims
+172,1019523,22523,42,4350,Injury by Uninsured or Underinsured Defendant
+587,1002813,5813,45,4350,Property Damage Claims
+822,1012323,15323,45,4350,Third Party Car Insurance Claims
+474,1024595,27595,63,14800,Personal Injury
+563,1024695,27695,84,11570,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+304,1016682,19682,31,4320,Property Damage Claims
+773,1022064,25064,35,4320,Reimbursement for Property Repairs
+921,1002101,5101,32,4320,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1202,1028459,31459,30,4320,Reimbursement for Property Repairs
+267,1022215,25215,65,4300,Third Party Car Insurance Claims
+1327,1007818,10818,65,4300,Bodily Injury Claims
+1348,1029732,32732,65,4300,Bodily Injury Claims
+1318,1022732,25732,51,4290,Third Party Car Insurance Claims
+1109,1017027,20027,61,4279,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+814,1010889,13889,33,4250,Bodily Injury Claims
+687,1002345,5345,72,4230,Third Party Car Insurance Claims
+1049,1028799,47971,72,4230,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+295,1024696,27696,40,4760,Property Damage Claims
+77,1014422,17422,58,4200,Bodily Injury Claims
+233,1024333,27333,56,4200,Bodily Injury Claims
+467,1007812,10812,64,4200,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+152,1024721,27721,85,103040,Loss of Value to Vehicle
+759,1028431,31431,47,4200,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+892,1011527,14527,37,4200,Property Damage Claims
+914,1004939,7939,46,4200,Third Party Car Insurance Claims
+941,1021259,24259,46,4200,Third Party Car Insurance Claims
+955,1009697,12697,57,4200,Third Party Car Insurance Claims
+1312,1006290,2217462,56,4200,Bodily Injury Claims
+49,1024656,2218644,59,4180,Third Party Car Insurance Claims
+78,1021735,24735,59,4180,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+178,1004533,47581,21,4180,Property Damage Claims
+1326,1024906,2216155,56,4550,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+556,1026199,29199,49,4160,Third Party Car Insurance Claims
+1018,1022636,25636,49,4160,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+13,1016013,2219168,26,4140,Reimbursement for Property Repairs
+497,1008579,11579,26,4140,Bodily Injury Claims
+1292,1024816,27816,44,25810,Loss of Value to Vehicle
+891,1013769,16769,29,4140,Bodily Injury Claims
+1173,1021011,49113,71,4140,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1242,1011588,14588,26,4140,Injury by Uninsured or Underinsured Defendant
+1261,1028784,31784,71,4140,Third Party Car Insurance Claims
+1335,1022447,25447,26,4140,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1220,1024816,27816,44,24360,Loss of Value to Vehicle
+462,1026237,29237,78,4130,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+857,1026551,29551,54,4420,Third Party Car Insurance Claims
+118,1014584,17584,32,4080,Third Party Car Insurance Claims
+227,1008727,11727,55,4080,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+428,1003844,6844,32,4080,Personal Injury
+489,1017406,20406,55,4080,Third Party Car Insurance Claims
+880,1016861,19861,55,4080,Third Party Car Insurance Claims
+909,1020502,23502,30,4080,Reimbursement for Property Repairs
+1272,1006484,9484,32,4080,Bodily Injury Claims
+167,1019839,22839,42,4060,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+479,1011735,14735,43,4060,Third Party Car Insurance Claims
+642,1003545,47955,43,4060,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+67,1019211,22211,15,4200,Personal Injury
+956,1025060,28060,72,3290,Bodily Injury Claims
+542,1028537,123172,69,4050,Third Party Car Insurance Claims
+305,1017939,20939,63,4000,Third Party Car Insurance Claims
+343,1027921,30921,75,4000,Bodily Injury Claims
+760,1021592,24592,33,4000,Third Party Car Insurance Claims
+1093,1012343,15343,63,4000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+737,1027291,30291,41,3990,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+41,1023932,26932,25,3960,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+223,1003863,6863,51,3960,Third Party Car Insurance Claims
+483,1009951,12951,23,3960,Third Party Car Insurance Claims
+741,1006940,9940,21,3960,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+961,1021705,24705,21,3960,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+971,1025190,28190,81,35200,Personal Injury
+1192,1029056,32056,51,3960,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+38,1022529,25529,74,3920,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+395,1003156,6156,37,3920,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+410,1026232,29232,38,3920,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+706,1014924,17924,37,3920,Bodily Injury Claims
+859,1005505,8505,39,3920,Bodily Injury Claims
+1254,1023570,26570,39,3920,Third Party Car Insurance Claims
+1306,1023570,26570,39,3920,Third Party Car Insurance Claims
+7,1009123,12123,9,3910,Property Damage Claims
+157,1002455,5455,27,3910,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+824,1021447,24447,28,3910,Bodily Injury Claims
+240,1024727,27727,2,3900,Injury by Uninsured or Underinsured Defendant
+702,1015326,18326,62,3900,Third Party Car Insurance Claims
+762,1022818,25818,46,3900,Third Party Car Insurance Claims
+439,1014219,17219,61,3890,Bodily Injury Claims
+306,1024737,27737,60,3860,Bodily Injury Claims
+488,1004363,7363,78,4130,Third Party Car Insurance Claims
+1,1025498,28498,78,4130,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1139,1025001,28001,58,3850,Third Party Car Insurance Claims
+312,1028031,2216563,30,3840,Bodily Injury Claims
+787,1025523,28523,30,3840,Bodily Injury Claims
+1087,1003442,6442,48,3840,Third Party Car Insurance Claims
+79,1001452,4452,59,3800,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+969,1025597,28597,61,11670,Personal Injury
+656,1025659,28659,83,83000,Loss of Value to Vehicle
+76,1012574,15574,35,3780,Third Party Car Insurance Claims
+132,1017611,20611,20,3780,Bodily Injury Claims
+1117,1025889,28889,28,24380,Loss of Value to Vehicle
+639,1002125,5125,19,3780,Reimbursement for Property Repairs
+1342,1001621,4621,19,3780,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+413,1007711,10711,45,3770,Third Party Car Insurance Claims
+678,1009004,12004,43,3770,Third Party Car Insurance Claims
+902,1010464,2218453,43,3770,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1234,1020318,23318,45,3770,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+207,1020892,23892,73,3760,Third Party Car Insurance Claims
+230,1012076,46909,53,3740,Third Party Car Insurance Claims
+562,1009445,48455,55,3740,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+657,1024965,27965,55,3740,Third Party Car Insurance Claims
+688,1021547,24547,24,3740,Property Damage Claims
+826,1008397,11397,23,3740,Bodily Injury Claims
+1167,1025967,28967,40,2240,Third Party Car Insurance Claims
+1180,1017792,20792,9,3740,Personal Injury
+1239,1024041,27041,54,3740,Bodily Injury Claims
+418,1007980,2219843,52,3729,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1121,1011376,14376,52,3729,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1025,1018896,21896,34,3724,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+264,1022447,25447,26,3680,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+394,1020148,23148,28,3680,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+578,1003124,6124,71,3680,Third Party Car Insurance Claims
+1010,1000729,3729,71,3680,Bodily Injury Claims
+50,1027549,30549,39,3640,Third Party Car Insurance Claims
+247,1006890,9890,38,3640,Third Party Car Insurance Claims
+614,1019841,2215841,76,3640,Bodily Injury Claims
+695,1015523,18523,37,3640,Third Party Car Insurance Claims
+101,1028108,31108,46,3600,Bodily Injury Claims
+142,1006485,9485,70,3600,Bodily Injury Claims
+69,1026302,29302,65,10320,Property Damage Claims
+182,1017026,20026,30,3600,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+236,1021754,24754,16,3600,Bodily Injury Claims
+355,1027467,30467,15,3600,Reimbursement for Property Repairs
+469,1005563,8563,12,3600,Personal Injury
+832,1026303,29303,39,6720,Property Damage Claims
+527,1026340,29340,4,1440,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1208,1022295,25295,59,3800,Bodily Injury Claims
+1231,1011714,14714,32,3600,Personal Injury
+323,1011923,14923,9,3570,Reimbursement for Property Repairs
+362,1019797,22797,10,3570,Property Damage Claims
+680,1001621,4621,19,3570,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+743,1013154,16154,20,3570,Property Damage Claims
+750,1020266,23266,19,3570,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+685,1026460,29460,45,3190,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+838,1014587,47881,78,3540,Bodily Injury Claims
+11,1005257,2218136,22,3520,Third Party Car Insurance Claims
+117,1002477,5477,50,3520,Third Party Car Insurance Claims
+538,1012616,15616,68,3520,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+810,1010949,13949,23,3520,Personal Injury
+985,1026494,29494,26,29670,Loss of Value to Vehicle
+1291,1014290,17290,4,3520,Reimbursement for Property Repairs
+176,1003206,6206,63,3600,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+617,1023775,26775,33,3500,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+793,1002981,5981,56,3500,Bodily Injury Claims
+1166,1006290,2217462,56,3500,Bodily Injury Claims
+310,1025081,2220520,42,3480,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+370,1012258,15258,43,3480,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+792,1014786,17786,45,3480,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+801,1019945,47214,60,3474,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+138,1011333,14333,34,3458,Third Party Car Insurance Claims
+925,1011326,14326,26,3450,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+515,1029406,32406,15,3600,Third Party Car Insurance Claims
+221,1019943,22943,74,3430,Bodily Injury Claims
+650,1026588,29588,1,1320,Third Party Car Insurance Claims
+187,1026770,29770,54,3400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+406,1013697,123869,55,3400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+425,1028660,31660,53,3400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+920,1017273,2219164,34,3192,Third Party Car Insurance Claims
+1150,1004980,131349,52,3390,Third Party Car Insurance Claims
+39,1001459,4459,19,3360,Bodily Injury Claims
+175,1006468,49513,18,3360,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+258,1027618,30618,31,3360,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+261,1021135,2216848,18,3360,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+324,1023431,26431,32,3360,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+353,1025468,28468,39,3360,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+586,1016981,19981,19,3360,Personal Injury
+693,1027901,30901,18,3360,Third Party Car Insurance Claims
+864,1010187,13187,17,3360,Bodily Injury Claims
+668,1026899,29899,60,5790,Bodily Injury Claims
+51,1025476,28476,77,3300,Bodily Injury Claims
+764,1028925,49086,8,3060,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+923,1027093,30093,76,4680,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+833,1021931,24931,25,3300,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+137,1026699,47718,73,3290,Third Party Car Insurance Claims
+748,1029909,32909,73,3290,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+986,1027245,30245,45,4060,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+400,1008388,11388,33,3250,Bodily Injury Claims
+580,1023924,26924,35,3240,Bodily Injury Claims
+736,1017880,20880,12,3240,Bodily Injury Claims
+93,1014051,17051,10,3230,Injury by Uninsured or Underinsured Defendant
+256,1000215,3215,7,3230,Injury by Uninsured or Underinsured Defendant
+782,1024946,27946,14,3230,Bodily Injury Claims
+123,1005552,8552,27,3220,Bodily Injury Claims
+281,1014926,17926,29,3220,Third Party Car Insurance Claims
+915,1013796,16796,51,2970,Third Party Car Insurance Claims
+1048,1024755,27755,71,3220,Third Party Car Insurance Claims
+119,1021842,24842,15,3200,Third Party Car Insurance Claims
+831,1012753,15753,50,3200,Third Party Car Insurance Claims
+329,1027888,30888,24,2860,Bodily Injury Claims
+29,1003873,6873,44,3190,Bodily Injury Claims
+332,1027922,30922,73,8460,Third Party Car Insurance Claims
+1274,1013796,16796,51,2970,Third Party Car Insurance Claims
+1024,1020073,23073,45,3190,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+345,1029253,32253,18,3150,Third Party Car Insurance Claims
+531,1028907,31907,70,3150,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+591,1021243,24243,20,3150,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+633,1016098,19098,20,3150,Bodily Injury Claims
+1023,1010151,13151,3,3150,Property Damage Claims
+1041,1026831,29831,56,3150,Bodily Injury Claims
+667,1007495,10495,40,2800,Third Party Car Insurance Claims
+1352,1019016,22016,70,3150,Third Party Car Insurance Claims
+405,1016498,19498,30,3120,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+436,1022905,25905,32,3120,Bodily Injury Claims
+799,1017293,20293,32,3120,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+965,1006694,9694,76,3120,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+287,1029570,2219227,61,3112,Third Party Car Insurance Claims
+1002,1006136,9136,60,3088,Bodily Injury Claims
+615,1011101,2220816,37,3080,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+660,1008504,2215795,40,3080,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+725,1003391,2216716,24,3080,Bodily Injury Claims
+806,1024301,2219377,23,3080,Third Party Car Insurance Claims
+897,1002883,5883,40,3080,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+620,1024906,2216155,56,2800,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+333,1021100,46444,11,3060,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+530,1019348,2217096,55,3060,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+379,1028453,31453,40,5320,Property Damage Claims
+1124,1029587,32587,7,3060,Property Damage Claims
+809,1005899,8899,14,3040,Injury by Uninsured or Underinsured Defendant
+248,1024973,27973,18,2730,Bodily Injury Claims
+1315,1007718,10718,65,3010,Bodily Injury Claims
+204,1005612,8612,47,3000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+430,1012487,15487,15,3000,Third Party Car Insurance Claims
+434,1020668,23668,75,3000,Third Party Car Insurance Claims
+602,1015133,18133,15,3000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1215,1014010,17010,46,3000,Third Party Car Insurance Claims
+209,1017503,20503,28,2990,Bodily Injury Claims
+525,1028663,31663,12,4140,Reimbursement for Property Repairs
+779,1028670,31670,46,3300,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+32,1028269,31269,17,2940,Third Party Car Insurance Claims
+311,1028685,31685,17,2940,Third Party Car Insurance Claims
+503,1022704,25704,19,2940,Third Party Car Insurance Claims
+696,1022836,25836,34,2926,Bodily Injury Claims
+309,1018759,21759,48,2880,Bodily Injury Claims
+669,1021290,24290,31,2880,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+962,1021820,24820,49,2880,Third Party Car Insurance Claims
+73,1028778,31778,65,9890,Reimbursement for Property Repairs
+1290,1028834,31834,46,5400,Third Party Car Insurance Claims
+399,1002656,5656,2,2860,Personal Injury
+380,1013880,48010,3,2850,Reimbursement for Property Repairs
+581,1027544,30544,13,2850,Third Party Car Insurance Claims
+1081,1017624,20624,14,2850,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1021,1022944,25944,72,2820,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+316,1025371,117477,38,2800,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+419,1020001,23001,15,2800,Third Party Car Insurance Claims
+729,1028834,31834,46,4500,Third Party Car Insurance Claims
+844,1028950,31950,55,39100,Loss of Value to Vehicle
+348,1028972,31972,17,2520,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+583,1029158,32158,1,770,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+487,1021629,24629,29,2760,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+666,1029132,32132,26,2760,Bodily Injury Claims
+52,1025986,28986,1,2750,Property Damage Claims
+906,1029218,32218,11,1020,Third Party Car Insurance Claims
+260,1029228,32228,72,8460,Third Party Car Insurance Claims
+767,1026994,29994,62,2730,Third Party Car Insurance Claims
+1334,1006869,9869,62,2730,Third Party Car Insurance Claims
+112,1017671,20671,54,2720,Bodily Injury Claims
+150,1008221,11221,9,2720,Bodily Injury Claims
+397,1025480,28480,55,2720,Bodily Injury Claims
+526,1014290,17290,4,2720,Reimbursement for Property Repairs
+919,1025209,28209,5,2720,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+924,1008467,11467,53,2720,Third Party Car Insurance Claims
+999,1020606,23606,53,2720,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1060,1006627,9627,54,2720,Third Party Car Insurance Claims
+1273,1015291,18291,7,2720,Bodily Injury Claims
+211,1013549,16549,46,2700,Bodily Injury Claims
+268,1017128,20128,46,2700,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+35,1029580,32580,46,4800,Bodily Injury Claims
+1017,1011351,14351,3,2700,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+5,1016249,19249,59,2660,Bodily Injury Claims
+255,1020434,23434,14,2660,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+464,1008531,11531,13,2660,Third Party Car Insurance Claims
+535,1011672,14672,14,2660,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+168,1029805,32805,27,1380,Bodily Injury Claims
+186,1002014,5014,23,2640,Third Party Car Insurance Claims
+275,1009049,12049,70,2700,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+699,1009411,12411,32,2640,Bodily Injury Claims
+865,1029734,32734,32,2640,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+918,1027062,30062,31,2640,Bodily Injury Claims
+1134,1014101,17101,24,2640,Bodily Injury Claims
+145,1000272,3272,43,2610,Bodily Injury Claims
+453,1028908,2220014,25,2640,Bodily Injury Claims
+1350,1004037,7037,43,2610,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+173,1017743,20743,66,2580,Third Party Car Insurance Claims
+250,1000267,3267,65,2580,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+412,1007718,10718,65,2580,Bodily Injury Claims
+707,1017726,20726,65,2580,Bodily Injury Claims
+33,1028226,31226,41,2565,Third Party Car Insurance Claims
+916,1022948,45803,30,3600,Third Party Car Insurance Claims
+191,1006490,9490,49,2560,Third Party Car Insurance Claims
+193,1002806,5806,4,2560,Bodily Injury Claims
+297,1001911,137520,50,2560,Third Party Car Insurance Claims
+387,1006198,9198,6,2560,Personal Injury
+1098,1002539,2216809,43,2610,Bodily Injury Claims
+452,1015832,18832,48,2560,Third Party Car Insurance Claims
+600,1003638,122917,4,2560,Bodily Injury Claims
+786,1002174,5174,5,2560,Bodily Injury Claims
+853,1009937,2218693,6,2560,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+9,1016425,47163,4,5440,Personal Injury
+1222,1029654,32654,4,2560,Third Party Car Insurance Claims
+189,1022976,25976,9,2550,Reimbursement for Property Repairs
+1100,1018090,21090,10,2550,Third Party Car Insurance Claims
+1152,1022235,25235,11,2550,Bodily Injury Claims
+165,1026680,49096,40,2520,Third Party Car Insurance Claims
+441,1021002,24002,48,2560,Bodily Injury Claims
+478,1009387,12387,38,2520,Bodily Injury Claims
+719,1024369,27369,19,2520,Bodily Injury Claims
+386,1013097,16097,57,2450,Third Party Car Insurance Claims
+589,1018051,21051,24,2420,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+14,1013491,16491,4,2400,Injury by Uninsured or Underinsured Defendant
+72,1005268,8268,63,2400,Third Party Car Insurance Claims
+347,1012204,15204,63,2400,Bodily Injury Claims
+554,1013025,16025,30,2400,Third Party Car Insurance Claims
+988,1004023,7023,32,2400,Third Party Car Insurance Claims
+1148,1011227,14227,47,2400,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1190,1017515,20515,5,2400,Third Party Car Insurance Claims
+136,1015291,18291,7,2380,Bodily Injury Claims
+217,1018848,2218788,11,2380,Third Party Car Insurance Claims
+364,1025883,47791,54,2380,Bodily Injury Claims
+398,1015288,18288,8,2380,Bodily Injury Claims
+592,1014424,17424,11,2380,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+709,1021480,24480,10,2380,Third Party Car Insurance Claims
+1240,1024286,27286,9,2380,Third Party Car Insurance Claims
+1285,1003004,6004,54,2380,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1252,1009551,12551,59,2280,Bodily Injury Claims
+1311,1007711,10711,45,2320,Third Party Car Insurance Claims
+796,1017174,141141,41,2280,Bodily Injury Claims
+159,1020004,23004,18,2310,Third Party Car Insurance Claims
+415,1011118,14118,20,2310,Bodily Injury Claims
+703,1029398,2220507,18,2310,Bodily Injury Claims
+738,1022732,25732,51,2310,Third Party Car Insurance Claims
+1147,1006552,9552,51,2310,Third Party Car Insurance Claims
+1343,1015943,47815,41,7410,Property Damage Claims
+235,1015943,47815,41,6840,Property Damage Claims
+1354,1003970,48707,45,29000,Loss of Value to Vehicle
+158,1001170,4170,3,2250,Property Damage Claims
+341,1025466,28466,4,2240,Third Party Car Insurance Claims
+655,1004914,7914,38,2240,Third Party Car Insurance Claims
+811,1021035,24035,48,2240,Third Party Car Insurance Claims
+823,1004966,7966,38,2240,Third Party Car Insurance Claims
+934,1010651,13651,49,2240,Third Party Car Insurance Claims
+959,1009683,12683,40,2240,Bodily Injury Claims
+1009,1006175,9175,39,2240,Bodily Injury Claims
+338,1003970,48707,45,24940,Loss of Value to Vehicle
+214,1001835,4835,7,2210,Third Party Car Insurance Claims
+393,1024286,27286,9,2210,Third Party Car Insurance Claims
+1103,1025629,45505,8,2210,Third Party Car Insurance Claims
+87,1027207,30207,23,2200,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+98,1023817,26817,15,2200,Bodily Injury Claims
+246,1009883,12883,15,2200,Third Party Car Insurance Claims
+377,1014724,17724,23,2200,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+929,1027601,30601,23,2200,Third Party Car Insurance Claims
+1144,1026258,29258,24,2200,Third Party Car Insurance Claims
+3,1009472,12472,17,2100,Bodily Injury Claims
+907,1020680,23680,12,2160,Bodily Injury Claims
+1199,1005906,49515,59,7980,Injury by Uninsured or Underinsured Defendant
+1097,1008166,11166,32,2160,Third Party Car Insurance Claims
+1189,1006484,9484,32,2160,Bodily Injury Claims
+868,1007902,10902,34,2128,Bodily Injury Claims
+557,1004121,122849,18,4830,Property Damage Claims
+12,1026927,29927,46,2100,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1351,1004121,122849,18,3150,Property Damage Claims
+131,1025304,28304,46,2100,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1096,1020850,124906,35,2160,Bodily Injury Claims
+643,1010364,2218384,47,2100,Third Party Car Insurance Claims
+1249,1024973,27973,18,2100,Bodily Injury Claims
+40,1018201,136755,37,8120,Injury by Uninsured or Underinsured Defendant
+121,1009466,12466,6,2080,Third Party Car Insurance Claims
+1256,1011211,14211,6,2080,Bodily Injury Claims
+102,1027762,30762,4,2080,Third Party Car Insurance Claims
+409,1011064,14064,29,2070,Bodily Injury Claims
+507,1021883,24883,29,2070,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+185,1024041,27041,54,2040,Bodily Injury Claims
+485,1027396,30396,9,2040,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+807,1007626,10626,10,2040,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1090,1027752,30752,10,2040,Bodily Injury Claims
+533,1028456,31456,42,2030,Bodily Injury Claims
+566,1018279,21279,44,2030,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+794,1019365,2217095,43,2030,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+881,1015044,47934,45,2030,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+199,1008063,11063,33,2000,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+357,1001897,4897,16,2000,Bodily Injury Claims
+259,1025353,2215393,41,1995,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+473,1024936,27936,23,1980,Third Party Car Insurance Claims
+747,1025636,28636,12,1980,Bodily Injury Claims
+800,1028051,31051,23,1980,Bodily Injury Claims
+1338,1003391,2216716,24,1980,Bodily Injury Claims
+529,1009945,12945,39,1960,Third Party Car Insurance Claims
+197,1009892,12892,2,1950,Third Party Car Insurance Claims
+480,1008027,11027,2,1950,Third Party Car Insurance Claims
+54,1015695,18695,30,1920,Bodily Injury Claims
+143,1021627,24627,50,1920,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+873,1020103,142365,73,16450,Personal Injury
+575,1022865,25865,4,1920,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+153,1002804,2215885,55,3400,Third Party Car Insurance Claims
+889,1018744,21744,50,1920,Third Party Car Insurance Claims
+564,1001221,2216046,50,1920,Third Party Car Insurance Claims
+1263,1023343,26343,48,1920,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1287,1017026,20026,30,1920,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1339,1001911,137520,50,1920,Third Party Car Insurance Claims
+155,1004535,7535,20,1890,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+253,1026559,29559,19,1890,Third Party Car Insurance Claims
+320,1004105,7105,20,1890,Third Party Car Insurance Claims
+1322,1018082,2216092,33,9000,Injury by Uninsured or Underinsured Defendant
+1064,1018082,2216092,33,7000,Injury by Uninsured or Underinsured Defendant
+1070,1006770,9770,34,1862,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+226,1019508,22508,26,1840,Third Party Car Insurance Claims
+344,1015342,18342,27,1840,Third Party Car Insurance Claims
+730,1004703,7703,2,1820,Third Party Car Insurance Claims
+960,1020128,23128,5,1920,Bodily Injury Claims
+847,1008113,11113,1,1760,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1233,1002770,5770,24,1760,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+128,1016895,19895,33,1750,Bodily Injury Claims
+1269,1016895,19895,33,1750,Bodily Injury Claims
+1137,1004037,7037,43,1740,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+369,1025980,28980,14,1710,Bodily Injury Claims
+472,1020477,23477,14,1710,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1069,1015845,18845,41,1710,Third Party Car Insurance Claims
+108,1018841,21841,7,1700,Third Party Car Insurance Claims
+141,1019849,22849,11,1700,Third Party Car Insurance Claims
+640,1023555,26555,8,1700,Third Party Car Insurance Claims
+536,1022890,25890,10,1870,Third Party Car Insurance Claims
+1072,1011861,14861,2,1690,Bodily Injury Claims
+45,1028587,31587,39,1680,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+371,1029330,2216388,59,43320,Loss of Value to Vehicle
+1275,1013514,16514,2,1820,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+726,1014281,17281,30,1680,Third Party Car Insurance Claims
+937,1012848,15848,30,1680,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1006,1008996,2220789,39,1680,Third Party Car Insurance Claims
+1235,1025417,28417,19,1680,Third Party Car Insurance Claims
+644,1012077,15077,17,1680,Bodily Injury Claims
+231,1010385,2220841,35,1620,Third Party Car Insurance Claims
+597,1011211,14211,6,1600,Bodily Injury Claims
+1280,1012574,15574,35,1620,Third Party Car Insurance Claims
+385,1022060,25060,6,1600,Third Party Car Insurance Claims
+590,1028780,31780,6,1600,Bodily Injury Claims
+206,1029863,32863,31,1440,Third Party Car Insurance Claims
+818,1018617,21617,6,1600,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1158,1015945,2217349,64,7560,Reimbursement for Property Repairs
+1260,1014141,17141,15,1600,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1268,1025209,28209,5,1600,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1330,1014141,17141,15,1600,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+735,1015546,18546,34,1596,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+866,1011134,14134,25,1540,Third Party Car Insurance Claims
+461,1001086,4086,8,1530,Third Party Car Insurance Claims
+675,1027331,30331,9,1530,Third Party Car Insurance Claims
+788,1022797,25797,13,1520,Bodily Injury Claims
+879,1018300,21300,14,1520,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+269,1000188,134341,3,1500,Third Party Car Insurance Claims
+1141,1003640,6640,33,1500,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1151,1013739,16739,3,1500,Bodily Injury Claims
+92,1008084,11084,17,1470,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+714,1020328,23328,17,1470,Bodily Injury Claims
+874,1002211,5211,17,1470,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+508,1016552,2217695,63,20800,Injury by Uninsured or Underinsured Defendant
+1033,1016694,2217867,58,3850,Bodily Injury Claims
+849,1023142,26142,12,1440,Bodily Injury Claims
+105,1026352,29352,29,1380,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1297,1023712,2218650,26,3450,Bodily Injury Claims
+334,1014908,17908,26,1380,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+391,1027417,30417,29,1380,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+534,1029442,32442,29,1380,Third Party Car Insurance Claims
+463,1004625,7625,9,1360,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+16,1026071,29071,3,1350,Bodily Injury Claims
+1104,1000516,3516,13,1330,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+203,1015729,18729,22,1320,Third Party Car Insurance Claims
+208,1009795,12795,24,1320,Bodily Injury Claims
+638,1018464,21464,22,1320,Third Party Car Insurance Claims
+65,1023712,2218650,26,2070,Bodily Injury Claims
+989,1011737,14737,24,1320,Bodily Injury Claims
+791,1021644,24644,4,1280,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+450,1014141,17141,15,1200,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+368,1017917,2219162,10,1190,Third Party Car Insurance Claims
+658,1013746,2218944,8,1190,Bodily Injury Claims
+561,1013514,16514,2,1040,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+1132,1020817,23817,14,1140,Bodily Injury Claims
+140,1000685,3685,1,1100,Third Party Car Insurance Claims
+1143,1022026,48928,1,1100,Bodily Injury Claims
+901,1009866,2219190,71,6900,Third Party Car Insurance Claims
+286,1010105,13105,9,1020,Bodily Injury Claims
+548,1026807,29807,7,1020,Third Party Car Insurance Claims
+774,1009296,12296,9,1020,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+550,1004555,2219862,9,1190,Third Party Car Insurance Claims
+913,1011420,14420,8,1020,Third Party Car Insurance Claims
+62,1006328,9328,1,990,"Damage from impacts with animals (deer, etc.); note: a crash from swerving to avoid animals will likely fall under collision"
+974,1002038,5038,1,990,Third Party Car Insurance Claims
+551,1006103,9103,3,900,Third Party Car Insurance Claims
+75,1020036,2220291,36,7000,Property Damage Claims
+1299,1022026,48928,1,880,Bodily Injury Claims
+691,1017759,2220555,67,6880,Injury by Uninsured or Underinsured Defendant
+765,1015692,2218186,1,660,Bodily Injury Claims
