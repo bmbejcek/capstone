@@ -3,9 +3,9 @@ options(java.parameters = "-Xmx4g")
 library(XLConnect)
 
 # Set workbook location
-#setwd("/Users/iowner/OneDrive/School/Spring17/Capstone")
-wb.name <- "insurance.xlsx"
-wb <- loadWorkbook(wb.name)
+setwd(paste("/Users/iowner/OneDrive/School/Spring17/Capstone/capstone/",
+      "Exploratory Data Analysis/Data", sep = ""))
+wb <- loadWorkbook("insurance.xlsx")
 
 # Risk Fact
 col.types.1 <- c("character", "character", "character", "character", "numeric",
