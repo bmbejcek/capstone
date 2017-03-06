@@ -1,0 +1,127 @@
+---
+title: "Loss Ratios by One Dimension"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+library("RSQLite")
+library("knitr")
+
+# connect to the sqlite file
+setwd(paste("/Users/iowner/OneDrive/School/Spring17/Capstone/capstone/",
+            "Exploratory Data Analysis/R Code", sep = ""))
+con = dbConnect(drv = RSQLite::SQLite(), dbname = "../../data/CapstoneV1.db")
+
+# get a list of all tables
+alltables = dbListTables(con)
+
+# get all data table
+data = dbGetQuery(con, 'select * from all_data')
+
+```
+
+# Function
+
+```{r}
+
+# Loss ratio by column function
+loss.ratio <- function(data, col.name) {
+  losses <- aggregate(data$ClaimsAmount,
+                      by = list(Group = data[,col.name]),
+                      FUN = sum,
+                      na.rm = TRUE, na.action = NULL)
+  premiums <- aggregate(data$Premium,
+                        by = list(Group = data[,col.name]),
+                        FUN = sum,
+                        na.rm = TRUE, na.action = NULL)
+  result <- data.frame(Group = losses$Group,
+                       Losses = losses$x,
+                       Premiums = premiums$x)
+  colnames(result)[1] <- col.name
+  result$Loss.Ratio <- result$Losses / result$Premiums
+  return(result)
+}
+
+```
+
+```{r, echo = FALSE}
+
+columns <- c("VehicleID", "Violations", "Accidents", "MaritalStatus",
+             "Gender", "PrimaryVehicleUsage", "AgencyID", "CompanyID")
+
+```
+
+# VehicleID
+
+```{r, echo = FALSE}
+
+result <- loss.ratio(data, "VehicleID")
+kable(result)
+
+```
+
+# Violations
+
+```{r, echo = FALSE}
+
+result <- loss.ratio(data, "Violations")
+kable(result)
+
+```
+
+# Accidents
+
+```{r, echo = FALSE}
+
+result <- loss.ratio(data, "Accidents")
+kable(result)
+
+```
+
+# MaritalStatus
+
+```{r, echo = FALSE}
+
+result <- loss.ratio(data, "MaritalStatus")
+kable(result)
+
+```
+
+# Gender
+
+```{r, echo = FALSE}
+
+result <- loss.ratio(data, "Gender")
+kable(result)
+
+```
+
+# PrimaryVehicleUsage
+
+```{r, echo = FALSE}
+
+result <- loss.ratio(data, "PrimaryVehicleUsage")
+kable(result)
+
+```
+
+# AgencyID
+
+```{r, echo = FALSE}
+
+result <- loss.ratio(data, "AgencyID")
+kable(result)
+
+```
+
+# CompanyID
+
+```{r, echo = FALSE}
+
+result <- loss.ratio(data, "CompanyID")
+kable(result)
+
+```
+
+
