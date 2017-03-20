@@ -124,4 +124,13 @@ kable(result)
 
 ```
 
+# VehicleModelYear
+
+```{r, echo = FALSE}
+
+# result <- loss.ratio(data, "VehicleModelYear")
+# kable(result)
+
+```
+
 
