@@ -194,22 +194,29 @@ LEFT [OUTER] JOIN table2
 ON table1.keyfield1 = table2.keyfield2
 [WHERE expr]
 
+**CHANGE**
 drop table claim_risk;
-create table claim_risk as select RISK.*,sum(CLAIM.Amount) as ClaimsAmount from RISK LEFT JOIN  CLAIM on CLAIM.DriverID=RISK.DriverID group by RISK.DriverID;
+create table claim_risk as select RISK.*,sum(CLAIM.Amount) as ClaimsAmount,count(CLAIM.DriverID) as ClaimsCount From RISK LEFT JOIN  CLAIM on CLAIM.DriverID=RISK.DriverID group by RISK.DriverID;
 
 drop table driver_claim_risk;
 create table driver_claim_risk as select claim_risk.*, DRIVER.* from claim_risk LEFT JOIN  DRIVER on claim_risk.DriverID=Driver.id;
 select count(*) from driver_claim_risk;
 
-create table location_driver_claim_risk as select driver_claim_risk.*,LOCATION.* from driver_claim_risk LEFT JOIN LOCATION on LocationID=LOCATION.id;
+**ADD**
+drop table driver_claim_risk_driverveh;
+create table driver_claim_risk_driverveh as select driver_claim_risk.*,driverveh.VehicleModelYear from driver_claim_risk.* LEFT JOIN DRIVERVEH on driver_claim_risk.DriverID=DRIVERVEH.DriverID
+
+**CHANGE**
+create table location_driver_claim_risk as select driver_claim_risk_driverveh.*,LOCATION.* from driver_claim_risk_driverveh LEFT JOIN LOCATION on LocationID=LOCATION.id;
 
 select count(*) from location_driver_claim_risk
 
 create table vehicle_location_driver_claim_risk as select location_driver_claim_risk.*, VEHICLE.* from location_driver_claim_risk LEFT JOIN VEHICLE on VehicleID=VEHICLE.id;
 select count(*) from vehicle_location_driver_claim_risk;
 
+**CHANGE**
 drop table policy_company;
-create table policy_company as select POLICY.*, COMPANY.*  from POLICY LEFT JOIN COMPANY on CompanyID=COMPANY.id; 
+create table policy_company as select POLICY.*,count(Policy.number) as numberDriversOnPolicy, COMPANY.*  from POLICY LEFT JOIN COMPANY on CompanyID=COMPANY.id group by Policy.number; 
 
 drop table policy_company_agency;
 create table policy_company_agency as select policy_company.*, AGENCY.* from policy_company LEFT JOIN AGENCY on policy_company.AgencyID= AGENCY.id; 
