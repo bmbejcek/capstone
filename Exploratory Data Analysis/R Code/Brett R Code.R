@@ -1,6 +1,6 @@
 library("RSQLite")
-library(maps)
-library(mapdata)
+library("dplyr")
+
 
 # connect to the sqlite file
 con = dbConnect(drv=RSQLite::SQLite(), dbname="../../data/CapstoneV1.db")
@@ -8,8 +8,9 @@ con = dbConnect(drv=RSQLite::SQLite(), dbname="../../data/CapstoneV1.db")
 # get a list of all tables
 alltables = dbListTables(con)
 
-# CREATING SINGLE CSV WAS DONE IN SQLITE
-# THE R CODE IS JUST HERE FOR DOCUMENTATION
+# CODE FOR JOINING SQL TABLES TOGETHER
+# EVENTUALLY THIS WAS COMPLETED USING SQLITE3
+# THIS IS JUST HERE FOR DOCUMENTATION ON HOW WE STARTED IT
 # # get all tables
 # agency = dbGetQuery( con,'select * from agency' )
 # 
@@ -28,62 +29,29 @@ alltables = dbListTables(con)
 #                    (select DriverID, PolicyID, VehicleID, sum(Amount) as Claims from claim group by DriverID) as s
 #                    on risk.driverID = s.driverID' )
 
+
 all = dbGetQuery( con,'select * from All_DATA' )
 all$ClaimsAmount[is.na(all$ClaimsAmount)] <- 0
-all$LossRatio <- all$ClaimsAmount/all$Premium
+##TEST FOR GGMAP
 
-#GET LATITUDE AND LONGITUDES
-loc = dbGetQuery( con,'select * from LOCATION' )
-loc <- loc[1]
-loc$lat <- 0
-loc$lon <- 0
-for(i in 1:nrow(loc))
-{
-  geo <- geocode(toString(loc$ZipCode[i]))
-  lon <- toString(geo[1])
-  loc$lon[i] <- as.double(lon)
-  lat <- toString(geo[2])
-  loc$lat[i] <- as.double(lat)
-  print(i)
-}
+map <- get_googlemap('california', scale = 2)
 
-all_loc <- merge(x = all, y = zipcode, by = "ZipCode", all.x = TRUE, sort = FALSE)
-#write.csv(all_loc, "../../../LatLong.csv")
+allDat$lr <- allDat$LossRatio < 1.0
 
-all_loc$aboveOne <- (all_loc$LossRatio>=1.0)
+p <- ggplot(all, aes(jitter(Violations), jitter(AgencyID)))
+p + geom_point(aes(colour = factor(lr)))
 
-#GGMAP
+ggplot(all,aes(x=as.factor(Violations),y=as.factor(AgencyID)))+geom_bar()+facet_grid(as.factor(Violations)~as.factor(AgencyID))
 
-CaliMap <- qmap("California", zoom = 6, maptype="toner")
+p <- ggplot(allDat, aes(age, Gender))
+p + geom_point(aes(colour = factor(lr)))
 
-CaliMap + 
-  geom_point(aes(x = LNG, y = LAT),
-             data = all_loc[all_loc$ClaimsAmount==0,], alpha = .05, color = "deepskyblue",
-             position=position_jitter(w = 0.08, h = 0.08)) + 
-  geom_point(aes(x = LNG, y = LAT),
-           data = all_loc[all_loc$ClaimsAmount>0,], alpha = .05, color = "red",
-           position=position_jitter(w = 0.08, h = 0.08))
+scatter3D(all$Premium, all$AvgPrice, all$Population, colvar = all$lr, theta = 100, phi = 5)
+scatter3D(all$Percent0to15, all$Percent15to25, all$Percent25to40, colvar = all$lr, col = c(rgb(0.9,0.2,0.24,alpha=1.0), rgb(0.2,0.2,0.2,alpha=0.1)), theta = 60, phi = 45)
 
-CaliMap + 
-  geom_point(aes(x = LNG, y = LAT),
-             data = all_loc[all_loc$LossRatio < 1,], alpha = .05, color = "deepskyblue",
-             position=position_jitter(w = 0.08, h = 0.08)) + 
-  geom_point(aes(x = LNG, y = LAT),
-             data = all_loc[all_loc$LossRatio > 1,], alpha = .1, color = "red",
-             position=position_jitter(w = 0.08, h = 0.08))
-library(tree)
-tree1 = tree(as.factor(aboveOne) ~ Violations+Accidents+MaritalStatus+Gender+MilesToWork+PrimaryVehicleUsage+AvgPrice+UnderwritingAgencyName+Name,
-                   data = all_loc)
-summary(tree1)
+d = data.frame(summarize(group_by(all,Violations,AgencyID,lr),
+              n = n()) %>% mutate(freq=n/sum(n)))
 
-library(randomForest)
-forest1 = randomForest(as.factor(aboveOne) ~ Violations+Accidents+MaritalStatus+Gender+MilesToWork+PrimaryVehicleUsage+AvgPrice+UnderwritingAgencyName+Name,
-                       data = all_loc)
-print(forest1) 
+t = ggplot(data=d,aes(x=lr,y=freq))+geom_bar(stat="identity",aes(fill=factor(lr)))+facet_grid(factor(Violations) ~ factor(AgencyID))
+t
 
-model = lm(LossRatio ~ Violations+Accidents+MaritalStatus+Gender+MilesToWork+PrimaryVehicleUsage+AvgPrice+UnderwritingAgencyName+Name,
-             data = all_loc[all_loc$LossRatio > 0,])
-summary(model)
-
-model2 <- glm(aboveOne ~ Violations+Accidents+MaritalStatus+Gender+MilesToWork+PrimaryVehicleUsage+AvgPrice+UnderwritingAgencyName+Name,
-    data = all_loc)
