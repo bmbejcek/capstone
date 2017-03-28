@@ -1,6 +1,5 @@
 library("RSQLite")
-library(maps)
-library(mapdata)
+library("dplyr")
 
 # connect to the sqlite file
 con = dbConnect(drv=RSQLite::SQLite(), dbname="../../data/CapstoneV1.db")
@@ -8,82 +7,74 @@ con = dbConnect(drv=RSQLite::SQLite(), dbname="../../data/CapstoneV1.db")
 # get a list of all tables
 alltables = dbListTables(con)
 
-# CREATING SINGLE CSV WAS DONE IN SQLITE
-# THE R CODE IS JUST HERE FOR DOCUMENTATION
-# # get all tables
-# agency = dbGetQuery( con,'select * from agency' )
-# 
-# claim = dbGetQuery( con,'select * from claim' ) #need to sum across driver ID
-# summed_claim = dbGetQuery( con,'select DriverID, PolicyID, VehicleID, sum(Amount) as SumAmount from claim group by DriverID' )
-# 
-# company = dbGetQuery( con,'select * from company' )
-# driver = dbGetQuery( con,'select * from driver' )
-# driverveh = dbGetQuery( con,'select * from driverveh' )
-# location = dbGetQuery( con,'select * from location' )
-# policy = dbGetQuery( con,'select * from policy' )
-# risk = dbGetQuery( con,'select * from risk' )
-# vehicle = dbGetQuery( con,'select * from vehicle' )
-# 
-# agg1 = dbGetQuery( con,'select risk.DriverID, risk.PolicyID, risk.VehicleID, risk.Premium, s.Claims from risk left join 
-#                    (select DriverID, PolicyID, VehicleID, sum(Amount) as Claims from claim group by DriverID) as s
-#                    on risk.driverID = s.driverID' )
-
+# get the large table of data
 all = dbGetQuery( con,'select * from All_DATA' )
 all$ClaimsAmount[is.na(all$ClaimsAmount)] <- 0
 all$LossRatio <- all$ClaimsAmount/all$Premium
+all$lr <- all$LossRatio < 1.0 # indicator variable if there is a claim or not
 
-#GET LATITUDE AND LONGITUDES
-loc = dbGetQuery( con,'select * from LOCATION' )
-loc <- loc[1]
-loc$lat <- 0
-loc$lon <- 0
-for(i in 1:nrow(loc))
-{
-  geo <- geocode(toString(loc$ZipCode[i]))
-  lon <- toString(geo[1])
-  loc$lon[i] <- as.double(lon)
-  lat <- toString(geo[2])
-  loc$lat[i] <- as.double(lat)
-  print(i)
-}
+# initial plots (do not use)
+# p <- ggplot(all, aes(jitter(Violations), jitter(AgencyID)))
+# p + geom_point(aes(colour = factor(lr)))
+# p <- ggplot(allDat, aes(age, Gender))
+# p + geom_point(aes(colour = factor(lr)))
+# scatter3D(all$Premium, all$AvgPrice, all$Population, colvar = all$lr, theta = 100, phi = 5)
+# scatter3D(all$Percent0to15, all$Percent15to25, all$Percent25to40, colvar = all$lr, col = c(rgb(0.9,0.2,0.24,alpha=1.0), rgb(0.2,0.2,0.2,alpha=0.1)), theta = 60, phi = 45)
 
-all_loc <- merge(x = all, y = zipcode, by = "ZipCode", all.x = TRUE, sort = FALSE)
-#write.csv(all_loc, "../../../LatLong.csv")
 
-all_loc$aboveOne <- (all_loc$LossRatio>=1.0)
+# visualization of Violations ~ AgencyID by % of drivers who made claim
+d = data.frame(summarize(group_by(all,Violations,AgencyID,lr),n = n()) %>% mutate(freq=n/sum(n)))
+d = d[d$lr == FALSE,]
 
-#GGMAP
+# ggplot(data=d,aes(x=lr,y=freq))+geom_bar(stat="identity",aes(fill=factor(lr)))+facet_grid(factor(Violations) ~ factor(AgencyID))
+# ggplot(data=d_false,aes(x=lr,y=freq))+geom_bar(stat="identity",aes(fill=factor(lr)))+facet_grid(factor(Violations) ~ factor(AgencyID))
 
-CaliMap <- qmap("California", zoom = 6, maptype="toner")
+ggplot(data=d,aes(x=factor(Violations),y=factor(AgencyID))) + geom_tile(aes(fill = freq), colour = "white") + geom_text(aes(label = round(freq, 3))) + scale_fill_gradient(low = "white", high = "red")
 
-CaliMap + 
-  geom_point(aes(x = LNG, y = LAT),
-             data = all_loc[all_loc$ClaimsAmount==0,], alpha = .05, color = "deepskyblue",
-             position=position_jitter(w = 0.08, h = 0.08)) + 
-  geom_point(aes(x = LNG, y = LAT),
-           data = all_loc[all_loc$ClaimsAmount>0,], alpha = .05, color = "red",
-           position=position_jitter(w = 0.08, h = 0.08))
 
-CaliMap + 
-  geom_point(aes(x = LNG, y = LAT),
-             data = all_loc[all_loc$LossRatio < 1,], alpha = .05, color = "deepskyblue",
-             position=position_jitter(w = 0.08, h = 0.08)) + 
-  geom_point(aes(x = LNG, y = LAT),
-             data = all_loc[all_loc$LossRatio > 1,], alpha = .1, color = "red",
-             position=position_jitter(w = 0.08, h = 0.08))
-library(tree)
-tree1 = tree(as.factor(aboveOne) ~ Violations+Accidents+MaritalStatus+Gender+MilesToWork+PrimaryVehicleUsage+AvgPrice+UnderwritingAgencyName+Name,
-                   data = all_loc)
-summary(tree1)
+# visualization of Violations ~ AgencyID by avg(LossRatio)
+d2 = all %>% group_by(Violations,AgencyID) %>% summarize(mean=mean(LossRatio), n = n())
 
-library(randomForest)
-forest1 = randomForest(as.factor(aboveOne) ~ Violations+Accidents+MaritalStatus+Gender+MilesToWork+PrimaryVehicleUsage+AvgPrice+UnderwritingAgencyName+Name,
-                       data = all_loc)
-print(forest1) 
+ggplot(data=d2,aes(x=factor(Violations),y=factor(AgencyID))) + geom_tile(aes(fill = mean), colour = "white") + geom_text(aes(label = round(mean, 3))) + scale_fill_gradient(low = "white", high = "red")
 
-model = lm(LossRatio ~ Violations+Accidents+MaritalStatus+Gender+MilesToWork+PrimaryVehicleUsage+AvgPrice+UnderwritingAgencyName+Name,
-             data = all_loc[all_loc$LossRatio > 0,])
-summary(model)
+# visualization of UnderwritingAgencyName ~ AgencyID by % of drivers who made claim
+d3 = data.frame(summarize(group_by(all,UnderwritingAgencyName,AgencyID,lr),n = n()) %>% mutate(freq=n/sum(n)))
+d3 = d3[d3$lr == FALSE,]
+ggplot(data=d3,aes(x = UnderwritingAgencyName, y=factor(AgencyID))) + geom_tile(aes(fill = freq), colour = "white") + geom_text(aes(label = round(freq, 3))) + scale_fill_gradient(low = "white", high = "red")
 
-model2 <- glm(aboveOne ~ Violations+Accidents+MaritalStatus+Gender+MilesToWork+PrimaryVehicleUsage+AvgPrice+UnderwritingAgencyName+Name,
-    data = all_loc)
+
+# visualization of UnderwritingAgencyName ~ AgencyID by avg(LossRatio)
+d4 = all %>% group_by(UnderwritingAgencyName,AgencyID) %>% summarize(mean=mean(LossRatio), n = n())
+ggplot(data=d4,aes(x=UnderwritingAgencyName,y=factor(AgencyID))) + geom_tile(aes(fill = mean), colour = "white") + geom_text(aes(label = round(mean, 3))) + scale_fill_gradient(low = "white", high = "red")
+
+
+# visualization of MaritalStatus ~ Gender by % of drivers who made claim
+d5 = data.frame(summarize(group_by(all,MaritalStatus,Gender,lr),n = n()) %>% mutate(freq=n/sum(n)))
+d5 = d5[d5$lr == FALSE,]
+ggplot(data=d5,aes(x = MaritalStatus, y=Gender)) + geom_tile(aes(fill = freq), colour = "white") + geom_text(aes(label = round(freq, 3))) + scale_fill_gradient(low = "white", high = "red")
+
+
+# visualization of MaritalStatus ~ Gender by avg(LossRatio)
+d6 = all %>% group_by(MaritalStatus,Gender) %>% summarize(mean=mean(LossRatio), n = n())
+ggplot(data=d6,aes(x=MaritalStatus,y=Gender)) + geom_tile(aes(fill = mean), colour = "white") + geom_text(aes(label = round(mean, 3))) + scale_fill_gradient(low = "white", high = "red")
+
+
+# visualization of VehicleModelYear ~ PrimaryVehicleUsage by % of drivers who made claim
+d7 = data.frame(summarize(group_by(all,VehicleModelYear,PrimaryVehicleUsage,lr),n = n()) %>% mutate(freq=n/sum(n)))
+d7 = d7[d7$lr == FALSE,]
+ggplot(data=d7,aes(x=factor(VehicleModelYear),y=PrimaryVehicleUsage)) + geom_tile(aes(fill = freq), colour = "white") + geom_text(aes(label = round(freq, 3))) + scale_fill_gradient(low = "white", high = "red")
+
+# visualization of VehicleModelYear ~ PrimaryVehicleUsage by avg(LossRatio)
+d8 = all %>% group_by(VehicleModelYear,PrimaryVehicleUsage) %>% summarize(mean=mean(LossRatio), n = n())
+ggplot(data=d8,aes(x=factor(VehicleModelYear),y=PrimaryVehicleUsage)) + geom_tile(aes(fill = mean), colour = "white") + geom_text(aes(label = round(mean, 3))) + scale_fill_gradient(low = "white", high = "red")
+
+
+# visualization of VehicleModelYear ~ VehicleID by % of drivers who made claim
+d9 = data.frame(summarize(group_by(all,VehicleModelYear,VehicleID,lr),n = n()) %>% mutate(freq=n/sum(n)))
+d9 = d9[d9$lr == FALSE,]
+ggplot(data=d9,aes(x=factor(VehicleModelYear),y=VehicleID)) + geom_tile(aes(fill = freq), colour = "white") + geom_text(aes(label = round(freq, 3))) + scale_fill_gradient(low = "white", high = "red")
+
+# visualization of VehicleModelYear ~ VehicleID by avg(LossRatio)
+d10 = all %>% group_by(VehicleModelYear,VehicleID) %>% summarize(mean=mean(LossRatio), n = n())
+ggplot(data=d10,aes(x=factor(VehicleModelYear),y=VehicleID)) + geom_tile(aes(fill = mean), colour = "white") + geom_text(aes(label = round(mean, 3))) + scale_fill_gradient(low = "white", high = "red")
+
