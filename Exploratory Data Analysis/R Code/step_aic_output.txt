@@ -1,0 +1,1014 @@
+    Accidents:Population + Accidents:Percent0to15 + Accidents:Percent15to25 + 
+    Accidents:Percent25to40 + Accidents:AvgPrice + MaritalStatus:Percent15to25 + 
+    Gender:PrimaryVehicleUsage + Gender:Percent15to25 + Gender:Percent25to40 + 
+    MilesToWork:Population + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent0to15 + 
+    PrimaryVehicleUsage:Percent15to25 + PrimaryVehicleUsage:Percent25to40 + 
+    PrimaryVehicleUsage:AvgPrice + Population:Percent25to40 + 
+    Population:AvgPrice + Percent0to15:Percent15to25 + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Violations:Percent0to15            1    10632 10726
+- Violations:Population              1    10632 10726
+- Population:Percent25to40           1    10632 10726
+- MilesToWork:Population             1    10632 10726
+- Accidents:PrimaryVehicleUsage      1    10632 10726
+- Gender:Percent25to40               1    10632 10726
+- Percent0to15:Percent15to25         1    10632 10726
+- PrimaryVehicleUsage:Percent0to15   1    10632 10726
+- Accidents:Gender                   1    10632 10726
+- Accidents:MaritalStatus            2    10634 10726
+- Accidents:Percent25to40            1    10632 10726
+- MilesToWork:Percent0to15           1    10632 10726
+- PrimaryVehicleUsage:AvgPrice       1    10632 10726
+- Accidents:AvgPrice                 1    10632 10726
+- Violations:AvgPrice                1    10632 10726
+- Violations:Percent15to25           1    10632 10726
+- Violations:MilesToWork             1    10632 10726
+- PrimaryVehicleUsage:Percent25to40  1    10633 10727
+- Gender:Percent15to25               1    10633 10727
+- Gender:PrimaryVehicleUsage         1    10633 10727
+- Accidents:MilesToWork              1    10633 10727
+- MilesToWork:Percent25to40          1    10633 10727
+- Accidents:Percent15to25            1    10633 10727
+- MilesToWork:AvgPrice               1    10633 10727
+- Population:AvgPrice                1    10633 10727
+<none>                                    10632 10728
+- MilesToWork:Percent15to25          1    10634 10728
+- PrimaryVehicleUsage:Percent15to25  1    10634 10728
+- MaritalStatus:Percent15to25        2    10636 10728
+- Violations:Percent25to40           1    10634 10728
+- Percent25to40:AvgPrice             1    10635 10729
+- Accidents:Percent0to15             1    10636 10730
+- Accidents:Population               1    10638 10732
+- Premium                            1    10674 10768
+
+Step:  AIC=10725.75
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Population + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Violations:AvgPrice + Accidents:MaritalStatus + Accidents:Gender + 
+    Accidents:MilesToWork + Accidents:PrimaryVehicleUsage + Accidents:Population + 
+    Accidents:Percent0to15 + Accidents:Percent15to25 + Accidents:Percent25to40 + 
+    Accidents:AvgPrice + MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + Gender:Percent25to40 + MilesToWork:Population + 
+    MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + 
+    MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent0to15 + 
+    PrimaryVehicleUsage:Percent15to25 + PrimaryVehicleUsage:Percent25to40 + 
+    PrimaryVehicleUsage:AvgPrice + Population:Percent25to40 + 
+    Population:AvgPrice + Percent0to15:Percent15to25 + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Population:Percent25to40           1    10632 10724
+- MilesToWork:Population             1    10632 10724
+- Accidents:PrimaryVehicleUsage      1    10632 10724
+- Gender:Percent25to40               1    10632 10724
+- Percent0to15:Percent15to25         1    10632 10724
+- PrimaryVehicleUsage:Percent0to15   1    10632 10724
+- Accidents:Gender                   1    10632 10724
+- Violations:Population              1    10632 10724
+- Accidents:MaritalStatus            2    10634 10724
+- MilesToWork:Percent0to15           1    10632 10724
+- PrimaryVehicleUsage:AvgPrice       1    10632 10724
+- Accidents:Percent25to40            1    10632 10724
+- Accidents:AvgPrice                 1    10632 10724
+- Violations:AvgPrice                1    10633 10725
+- Violations:MilesToWork             1    10633 10725
+- PrimaryVehicleUsage:Percent25to40  1    10633 10725
+- Gender:Percent15to25               1    10633 10725
+- Gender:PrimaryVehicleUsage         1    10633 10725
+- Accidents:MilesToWork              1    10633 10725
+- MilesToWork:Percent25to40          1    10633 10725
+- Accidents:Percent15to25            1    10633 10725
+- MilesToWork:AvgPrice               1    10633 10725
+- Violations:Percent15to25           1    10633 10725
+- Population:AvgPrice                1    10634 10726
+<none>                                    10632 10726
+- MilesToWork:Percent15to25          1    10634 10726
+- PrimaryVehicleUsage:Percent15to25  1    10635 10727
+- MaritalStatus:Percent15to25        2    10637 10727
+- Percent25to40:AvgPrice             1    10635 10727
+- Violations:Percent25to40           1    10637 10729
+- Accidents:Percent0to15             1    10637 10729
+- Accidents:Population               1    10638 10730
+- Premium                            1    10674 10766
+
+Step:  AIC=10724
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Population + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Violations:AvgPrice + Accidents:MaritalStatus + Accidents:Gender + 
+    Accidents:MilesToWork + Accidents:PrimaryVehicleUsage + Accidents:Population + 
+    Accidents:Percent0to15 + Accidents:Percent15to25 + Accidents:Percent25to40 + 
+    Accidents:AvgPrice + MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + Gender:Percent25to40 + MilesToWork:Population + 
+    MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + 
+    MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent0to15 + 
+    PrimaryVehicleUsage:Percent15to25 + PrimaryVehicleUsage:Percent25to40 + 
+    PrimaryVehicleUsage:AvgPrice + Population:AvgPrice + Percent0to15:Percent15to25 + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- MilesToWork:Population             1    10632 10722
+- Accidents:PrimaryVehicleUsage      1    10632 10722
+- Percent0to15:Percent15to25         1    10632 10722
+- Gender:Percent25to40               1    10632 10722
+- PrimaryVehicleUsage:Percent0to15   1    10632 10722
+- Accidents:Gender                   1    10632 10722
+- Violations:Population              1    10632 10722
+- Accidents:MaritalStatus            2    10634 10722
+- MilesToWork:Percent0to15           1    10633 10723
+- PrimaryVehicleUsage:AvgPrice       1    10633 10723
+- Accidents:Percent25to40            1    10633 10723
+- Accidents:AvgPrice                 1    10633 10723
+- Violations:AvgPrice                1    10633 10723
+- Violations:MilesToWork             1    10633 10723
+- PrimaryVehicleUsage:Percent25to40  1    10633 10723
+- Gender:Percent15to25               1    10633 10723
+- Gender:PrimaryVehicleUsage         1    10633 10723
+- Accidents:MilesToWork              1    10633 10723
+- MilesToWork:Percent25to40          1    10633 10723
+- Accidents:Percent15to25            1    10633 10723
+- MilesToWork:AvgPrice               1    10633 10723
+- Violations:Percent15to25           1    10634 10724
+- Population:AvgPrice                1    10634 10724
+<none>                                    10632 10724
+- MilesToWork:Percent15to25          1    10634 10724
+- PrimaryVehicleUsage:Percent15to25  1    10635 10725
+- MaritalStatus:Percent15to25        2    10637 10725
+- Percent25to40:AvgPrice             1    10636 10726
+- Violations:Percent25to40           1    10637 10727
+- Accidents:Percent0to15             1    10637 10727
+- Accidents:Population               1    10639 10729
+- Premium                            1    10674 10764
+
+Step:  AIC=10722.26
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Population + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Violations:AvgPrice + Accidents:MaritalStatus + Accidents:Gender + 
+    Accidents:MilesToWork + Accidents:PrimaryVehicleUsage + Accidents:Population + 
+    Accidents:Percent0to15 + Accidents:Percent15to25 + Accidents:Percent25to40 + 
+    Accidents:AvgPrice + MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + Gender:Percent25to40 + MilesToWork:Percent0to15 + 
+    MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + MilesToWork:AvgPrice + 
+    PrimaryVehicleUsage:Percent0to15 + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + PrimaryVehicleUsage:AvgPrice + 
+    Population:AvgPrice + Percent0to15:Percent15to25 + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Accidents:PrimaryVehicleUsage      1    10632 10720
+- Percent0to15:Percent15to25         1    10632 10720
+- Gender:Percent25to40               1    10633 10721
+- PrimaryVehicleUsage:Percent0to15   1    10633 10721
+- Accidents:Gender                   1    10633 10721
+- Violations:Population              1    10633 10721
+- Accidents:MaritalStatus            2    10635 10721
+- PrimaryVehicleUsage:AvgPrice       1    10633 10721
+- Accidents:Percent25to40            1    10633 10721
+- Accidents:AvgPrice                 1    10633 10721
+- Violations:AvgPrice                1    10633 10721
+- Violations:MilesToWork             1    10633 10721
+- Accidents:MilesToWork              1    10633 10721
+- PrimaryVehicleUsage:Percent25to40  1    10633 10721
+- Gender:Percent15to25               1    10633 10721
+- Gender:PrimaryVehicleUsage         1    10633 10721
+- MilesToWork:Percent25to40          1    10633 10721
+- MilesToWork:Percent0to15           1    10634 10722
+- Accidents:Percent15to25            1    10634 10722
+- MilesToWork:AvgPrice               1    10634 10722
+- Violations:Percent15to25           1    10634 10722
+- Population:AvgPrice                1    10634 10722
+- MilesToWork:Percent15to25          1    10634 10722
+<none>                                    10632 10722
+- PrimaryVehicleUsage:Percent15to25  1    10635 10723
+- MaritalStatus:Percent15to25        2    10637 10723
+- Percent25to40:AvgPrice             1    10636 10724
+- Accidents:Percent0to15             1    10637 10725
+- Violations:Percent25to40           1    10637 10725
+- Accidents:Population               1    10639 10727
+- Premium                            1    10674 10762
+
+Step:  AIC=10720.53
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Population + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Violations:AvgPrice + Accidents:MaritalStatus + Accidents:Gender + 
+    Accidents:MilesToWork + Accidents:Population + Accidents:Percent0to15 + 
+    Accidents:Percent15to25 + Accidents:Percent25to40 + Accidents:AvgPrice + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + Gender:Percent25to40 + MilesToWork:Percent0to15 + 
+    MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + MilesToWork:AvgPrice + 
+    PrimaryVehicleUsage:Percent0to15 + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + PrimaryVehicleUsage:AvgPrice + 
+    Population:AvgPrice + Percent0to15:Percent15to25 + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Percent0to15:Percent15to25         1    10633 10719
+- Gender:Percent25to40               1    10633 10719
+- PrimaryVehicleUsage:Percent0to15   1    10633 10719
+- Accidents:Gender                   1    10633 10719
+- Violations:Population              1    10633 10719
+- Accidents:MaritalStatus            2    10635 10719
+- PrimaryVehicleUsage:AvgPrice       1    10633 10719
+- Accidents:Percent25to40            1    10633 10719
+- Accidents:AvgPrice                 1    10633 10719
+- Violations:AvgPrice                1    10633 10719
+- Violations:MilesToWork             1    10634 10720
+- Accidents:MilesToWork              1    10634 10720
+- Gender:Percent15to25               1    10634 10720
+- PrimaryVehicleUsage:Percent25to40  1    10634 10720
+- Gender:PrimaryVehicleUsage         1    10634 10720
+- MilesToWork:Percent25to40          1    10634 10720
+- MilesToWork:Percent0to15           1    10634 10720
+- Accidents:Percent15to25            1    10634 10720
+- MilesToWork:AvgPrice               1    10634 10720
+- Violations:Percent15to25           1    10634 10720
+- Population:AvgPrice                1    10634 10720
+- MilesToWork:Percent15to25          1    10634 10720
+<none>                                    10632 10720
+- PrimaryVehicleUsage:Percent15to25  1    10635 10721
+- MaritalStatus:Percent15to25        2    10637 10721
+- Percent25to40:AvgPrice             1    10636 10722
+- Accidents:Percent0to15             1    10638 10724
+- Violations:Percent25to40           1    10638 10724
+- Accidents:Population               1    10639 10725
+- Premium                            1    10674 10760
+
+Step:  AIC=10718.81
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Population + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Violations:AvgPrice + Accidents:MaritalStatus + Accidents:Gender + 
+    Accidents:MilesToWork + Accidents:Population + Accidents:Percent0to15 + 
+    Accidents:Percent15to25 + Accidents:Percent25to40 + Accidents:AvgPrice + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + Gender:Percent25to40 + MilesToWork:Percent0to15 + 
+    MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + MilesToWork:AvgPrice + 
+    PrimaryVehicleUsage:Percent0to15 + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + PrimaryVehicleUsage:AvgPrice + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Gender:Percent25to40               1    10633 10717
+- PrimaryVehicleUsage:Percent0to15   1    10633 10717
+- Accidents:Gender                   1    10633 10717
+- Violations:Population              1    10633 10717
+- Accidents:MaritalStatus            2    10635 10717
+- PrimaryVehicleUsage:AvgPrice       1    10633 10717
+- Accidents:Percent25to40            1    10634 10718
+- Accidents:AvgPrice                 1    10634 10718
+- Violations:AvgPrice                1    10634 10718
+- Violations:MilesToWork             1    10634 10718
+- Accidents:MilesToWork              1    10634 10718
+- Gender:Percent15to25               1    10634 10718
+- PrimaryVehicleUsage:Percent25to40  1    10634 10718
+- Gender:PrimaryVehicleUsage         1    10634 10718
+- MilesToWork:Percent25to40          1    10634 10718
+- MilesToWork:Percent0to15           1    10634 10718
+- Accidents:Percent15to25            1    10634 10718
+- MilesToWork:AvgPrice               1    10634 10718
+- Violations:Percent15to25           1    10634 10718
+- Population:AvgPrice                1    10635 10719
+- MilesToWork:Percent15to25          1    10635 10719
+<none>                                    10633 10719
+- PrimaryVehicleUsage:Percent15to25  1    10636 10720
+- MaritalStatus:Percent15to25        2    10638 10720
+- Percent25to40:AvgPrice             1    10636 10720
+- Accidents:Percent0to15             1    10638 10722
+- Violations:Percent25to40           1    10638 10722
+- Accidents:Population               1    10640 10724
+- Premium                            1    10675 10759
+
+Step:  AIC=10717.11
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Population + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Violations:AvgPrice + Accidents:MaritalStatus + Accidents:Gender + 
+    Accidents:MilesToWork + Accidents:Population + Accidents:Percent0to15 + 
+    Accidents:Percent15to25 + Accidents:Percent25to40 + Accidents:AvgPrice + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent0to15 + 
+    PrimaryVehicleUsage:Percent15to25 + PrimaryVehicleUsage:Percent25to40 + 
+    PrimaryVehicleUsage:AvgPrice + Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- PrimaryVehicleUsage:Percent0to15   1    10633 10715
+- Accidents:Gender                   1    10634 10716
+- Violations:Population              1    10634 10716
+- Accidents:MaritalStatus            2    10636 10716
+- PrimaryVehicleUsage:AvgPrice       1    10634 10716
+- Accidents:AvgPrice                 1    10634 10716
+- Accidents:Percent25to40            1    10634 10716
+- Violations:AvgPrice                1    10634 10716
+- Violations:MilesToWork             1    10634 10716
+- Accidents:MilesToWork              1    10634 10716
+- PrimaryVehicleUsage:Percent25to40  1    10634 10716
+- Gender:PrimaryVehicleUsage         1    10634 10716
+- MilesToWork:Percent25to40          1    10634 10716
+- MilesToWork:Percent0to15           1    10634 10716
+- Accidents:Percent15to25            1    10634 10716
+- MilesToWork:AvgPrice               1    10634 10716
+- Violations:Percent15to25           1    10635 10717
+- Gender:Percent15to25               1    10635 10717
+- Population:AvgPrice                1    10635 10717
+- MilesToWork:Percent15to25          1    10635 10717
+<none>                                    10633 10717
+- PrimaryVehicleUsage:Percent15to25  1    10636 10718
+- MaritalStatus:Percent15to25        2    10638 10718
+- Percent25to40:AvgPrice             1    10637 10719
+- Accidents:Percent0to15             1    10638 10720
+- Violations:Percent25to40           1    10638 10720
+- Accidents:Population               1    10640 10722
+- Premium                            1    10675 10757
+
+Step:  AIC=10715.43
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Population + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Violations:AvgPrice + Accidents:MaritalStatus + Accidents:Gender + 
+    Accidents:MilesToWork + Accidents:Population + Accidents:Percent0to15 + 
+    Accidents:Percent15to25 + Accidents:Percent25to40 + Accidents:AvgPrice + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + PrimaryVehicleUsage:AvgPrice + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Accidents:Gender                   1    10634 10714
+- Violations:Population              1    10634 10714
+- Accidents:MaritalStatus            2    10636 10714
+- PrimaryVehicleUsage:AvgPrice       1    10634 10714
+- Accidents:Percent25to40            1    10634 10714
+- Accidents:AvgPrice                 1    10634 10714
+- PrimaryVehicleUsage:Percent25to40  1    10634 10714
+- Violations:AvgPrice                1    10634 10714
+- Violations:MilesToWork             1    10634 10714
+- Accidents:MilesToWork              1    10634 10714
+- Gender:PrimaryVehicleUsage         1    10634 10714
+- MilesToWork:Percent25to40          1    10635 10715
+- MilesToWork:Percent0to15           1    10635 10715
+- Accidents:Percent15to25            1    10635 10715
+- MilesToWork:AvgPrice               1    10635 10715
+- Violations:Percent15to25           1    10635 10715
+- Gender:Percent15to25               1    10635 10715
+- Population:AvgPrice                1    10635 10715
+- MilesToWork:Percent15to25          1    10635 10715
+<none>                                    10633 10715
+- PrimaryVehicleUsage:Percent15to25  1    10636 10716
+- MaritalStatus:Percent15to25        2    10638 10716
+- Percent25to40:AvgPrice             1    10637 10717
+- Accidents:Percent0to15             1    10638 10718
+- Violations:Percent25to40           1    10638 10718
+- Accidents:Population               1    10640 10720
+- Premium                            1    10675 10755
+
+Step:  AIC=10713.84
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Population + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Violations:AvgPrice + Accidents:MaritalStatus + Accidents:MilesToWork + 
+    Accidents:Population + Accidents:Percent0to15 + Accidents:Percent15to25 + 
+    Accidents:Percent25to40 + Accidents:AvgPrice + MaritalStatus:Percent15to25 + 
+    Gender:PrimaryVehicleUsage + Gender:Percent15to25 + MilesToWork:Percent0to15 + 
+    MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + MilesToWork:AvgPrice + 
+    PrimaryVehicleUsage:Percent15to25 + PrimaryVehicleUsage:Percent25to40 + 
+    PrimaryVehicleUsage:AvgPrice + Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Violations:Population              1    10634 10712
+- Accidents:MaritalStatus            2    10636 10712
+- PrimaryVehicleUsage:AvgPrice       1    10634 10712
+- Accidents:Percent25to40            1    10635 10713
+- Accidents:AvgPrice                 1    10635 10713
+- PrimaryVehicleUsage:Percent25to40  1    10635 10713
+- Violations:AvgPrice                1    10635 10713
+- Violations:MilesToWork             1    10635 10713
+- Accidents:MilesToWork              1    10635 10713
+- Gender:PrimaryVehicleUsage         1    10635 10713
+- MilesToWork:Percent25to40          1    10635 10713
+- MilesToWork:Percent0to15           1    10635 10713
+- Accidents:Percent15to25            1    10635 10713
+- MilesToWork:AvgPrice               1    10635 10713
+- Violations:Percent15to25           1    10635 10713
+- Gender:Percent15to25               1    10635 10713
+- Population:AvgPrice                1    10636 10714
+- MilesToWork:Percent15to25          1    10636 10714
+<none>                                    10634 10714
+- PrimaryVehicleUsage:Percent15to25  1    10636 10714
+- MaritalStatus:Percent15to25        2    10639 10715
+- Percent25to40:AvgPrice             1    10637 10715
+- Accidents:Percent0to15             1    10639 10717
+- Violations:Percent25to40           1    10639 10717
+- Accidents:Population               1    10641 10719
+- Premium                            1    10676 10754
+
+Step:  AIC=10712.33
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Percent15to25 + Violations:Percent25to40 + Violations:AvgPrice + 
+    Accidents:MaritalStatus + Accidents:MilesToWork + Accidents:Population + 
+    Accidents:Percent0to15 + Accidents:Percent15to25 + Accidents:Percent25to40 + 
+    Accidents:AvgPrice + MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + PrimaryVehicleUsage:AvgPrice + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Accidents:MaritalStatus            2    10637 10711
+- PrimaryVehicleUsage:AvgPrice       1    10635 10711
+- Accidents:AvgPrice                 1    10635 10711
+- PrimaryVehicleUsage:Percent25to40  1    10635 10711
+- Accidents:Percent25to40            1    10635 10711
+- Violations:AvgPrice                1    10635 10711
+- Violations:MilesToWork             1    10635 10711
+- Accidents:MilesToWork              1    10635 10711
+- Gender:PrimaryVehicleUsage         1    10635 10711
+- MilesToWork:Percent25to40          1    10636 10712
+- MilesToWork:Percent0to15           1    10636 10712
+- Accidents:Percent15to25            1    10636 10712
+- MilesToWork:AvgPrice               1    10636 10712
+- Gender:Percent15to25               1    10636 10712
+- Population:AvgPrice                1    10636 10712
+- MilesToWork:Percent15to25          1    10636 10712
+<none>                                    10634 10712
+- Violations:Percent15to25           1    10636 10712
+- PrimaryVehicleUsage:Percent15to25  1    10637 10713
+- MaritalStatus:Percent15to25        2    10639 10713
+- Percent25to40:AvgPrice             1    10638 10714
+- Accidents:Percent0to15             1    10639 10715
+- Violations:Percent25to40           1    10640 10716
+- Accidents:Population               1    10641 10717
+- Premium                            1    10676 10752
+
+Step:  AIC=10710.81
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Percent15to25 + Violations:Percent25to40 + Violations:AvgPrice + 
+    Accidents:MilesToWork + Accidents:Population + Accidents:Percent0to15 + 
+    Accidents:Percent15to25 + Accidents:Percent25to40 + Accidents:AvgPrice + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + PrimaryVehicleUsage:AvgPrice + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- PrimaryVehicleUsage:AvgPrice       1    10638 10710
+- Accidents:Percent25to40            1    10638 10710
+- Accidents:AvgPrice                 1    10638 10710
+- PrimaryVehicleUsage:Percent25to40  1    10638 10710
+- Violations:AvgPrice                1    10638 10710
+- Violations:MilesToWork             1    10638 10710
+- Accidents:MilesToWork              1    10638 10710
+- Gender:PrimaryVehicleUsage         1    10638 10710
+- MilesToWork:Percent25to40          1    10638 10710
+- MilesToWork:Percent0to15           1    10638 10710
+- Accidents:Percent15to25            1    10638 10710
+- MilesToWork:AvgPrice               1    10638 10710
+- Gender:Percent15to25               1    10638 10710
+- Population:AvgPrice                1    10639 10711
+- MilesToWork:Percent15to25          1    10639 10711
+<none>                                    10637 10711
+- Violations:Percent15to25           1    10639 10711
+- PrimaryVehicleUsage:Percent15to25  1    10639 10711
+- MaritalStatus:Percent15to25        2    10642 10712
+- Percent25to40:AvgPrice             1    10640 10712
+- Accidents:Percent0to15             1    10642 10714
+- Accidents:Population               1    10643 10715
+- Violations:Percent25to40           1    10643 10715
+- Premium                            1    10679 10751
+
+Step:  AIC=10709.45
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Percent15to25 + Violations:Percent25to40 + Violations:AvgPrice + 
+    Accidents:MilesToWork + Accidents:Population + Accidents:Percent0to15 + 
+    Accidents:Percent15to25 + Accidents:Percent25to40 + Accidents:AvgPrice + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + Population:AvgPrice + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Accidents:Percent25to40            1    10638 10708
+- PrimaryVehicleUsage:Percent25to40  1    10638 10708
+- Accidents:AvgPrice                 1    10638 10708
+- Violations:AvgPrice                1    10638 10708
+- Violations:MilesToWork             1    10638 10708
+- Gender:PrimaryVehicleUsage         1    10639 10709
+- Accidents:MilesToWork              1    10639 10709
+- MilesToWork:Percent25to40          1    10639 10709
+- MilesToWork:Percent0to15           1    10639 10709
+- Accidents:Percent15to25            1    10639 10709
+- MilesToWork:AvgPrice               1    10639 10709
+- Gender:Percent15to25               1    10639 10709
+- Population:AvgPrice                1    10639 10709
+- MilesToWork:Percent15to25          1    10639 10709
+<none>                                    10638 10710
+- Violations:Percent15to25           1    10640 10710
+- PrimaryVehicleUsage:Percent15to25  1    10640 10710
+- MaritalStatus:Percent15to25        2    10642 10710
+- Percent25to40:AvgPrice             1    10641 10711
+- Accidents:Percent0to15             1    10642 10712
+- Accidents:Population               1    10644 10714
+- Violations:Percent25to40           1    10644 10714
+- Premium                            1    10679 10749
+
+Step:  AIC=10708.16
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Percent15to25 + Violations:Percent25to40 + Violations:AvgPrice + 
+    Accidents:MilesToWork + Accidents:Population + Accidents:Percent0to15 + 
+    Accidents:Percent15to25 + Accidents:AvgPrice + MaritalStatus:Percent15to25 + 
+    Gender:PrimaryVehicleUsage + Gender:Percent15to25 + MilesToWork:Percent0to15 + 
+    MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + MilesToWork:AvgPrice + 
+    PrimaryVehicleUsage:Percent15to25 + PrimaryVehicleUsage:Percent25to40 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Accidents:AvgPrice                 1    10639 10707
+- Accidents:Percent15to25            1    10639 10707
+- PrimaryVehicleUsage:Percent25to40  1    10639 10707
+- Violations:AvgPrice                1    10639 10707
+- Violations:MilesToWork             1    10639 10707
+- Gender:PrimaryVehicleUsage         1    10639 10707
+- MilesToWork:Percent25to40          1    10639 10707
+- Accidents:MilesToWork              1    10639 10707
+- MilesToWork:Percent0to15           1    10639 10707
+- MilesToWork:AvgPrice               1    10640 10708
+- Gender:Percent15to25               1    10640 10708
+- Population:AvgPrice                1    10640 10708
+- MilesToWork:Percent15to25          1    10640 10708
+<none>                                    10638 10708
+- Violations:Percent15to25           1    10640 10708
+- PrimaryVehicleUsage:Percent15to25  1    10641 10709
+- MaritalStatus:Percent15to25        2    10643 10709
+- Percent25to40:AvgPrice             1    10642 10710
+- Accidents:Percent0to15             1    10642 10710
+- Violations:Percent25to40           1    10644 10712
+- Accidents:Population               1    10644 10712
+- Premium                            1    10680 10748
+
+Step:  AIC=10706.81
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Percent15to25 + Violations:Percent25to40 + Violations:AvgPrice + 
+    Accidents:MilesToWork + Accidents:Population + Accidents:Percent0to15 + 
+    Accidents:Percent15to25 + MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + Population:AvgPrice + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Violations:AvgPrice                1    10639 10705
+- PrimaryVehicleUsage:Percent25to40  1    10640 10706
+- Accidents:Percent15to25            1    10640 10706
+- Violations:MilesToWork             1    10640 10706
+- Gender:PrimaryVehicleUsage         1    10640 10706
+- Accidents:MilesToWork              1    10640 10706
+- MilesToWork:Percent25to40          1    10640 10706
+- MilesToWork:Percent0to15           1    10640 10706
+- MilesToWork:AvgPrice               1    10640 10706
+- Gender:Percent15to25               1    10640 10706
+- Population:AvgPrice                1    10640 10706
+- MilesToWork:Percent15to25          1    10641 10707
+<none>                                    10639 10707
+- Violations:Percent15to25           1    10641 10707
+- PrimaryVehicleUsage:Percent15to25  1    10641 10707
+- MaritalStatus:Percent15to25        2    10644 10708
+- Percent25to40:AvgPrice             1    10642 10708
+- Accidents:Percent0to15             1    10643 10709
+- Violations:Percent25to40           1    10644 10710
+- Accidents:Population               1    10645 10711
+- Premium                            1    10681 10747
+
+Step:  AIC=10705.25
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Percent15to25 + Violations:Percent25to40 + Accidents:MilesToWork + 
+    Accidents:Population + Accidents:Percent0to15 + Accidents:Percent15to25 + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    PrimaryVehicleUsage:Percent25to40 + Population:AvgPrice + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- PrimaryVehicleUsage:Percent25to40  1    10640 10704
+- Accidents:Percent15to25            1    10640 10704
+- Violations:MilesToWork             1    10640 10704
+- Gender:PrimaryVehicleUsage         1    10640 10704
+- Accidents:MilesToWork              1    10640 10704
+- MilesToWork:Percent25to40          1    10640 10704
+- MilesToWork:Percent0to15           1    10640 10704
+- MilesToWork:AvgPrice               1    10641 10705
+- Gender:Percent15to25               1    10641 10705
+- Population:AvgPrice                1    10641 10705
+- MilesToWork:Percent15to25          1    10641 10705
+<none>                                    10639 10705
+- Violations:Percent15to25           1    10641 10705
+- PrimaryVehicleUsage:Percent15to25  1    10642 10706
+- MaritalStatus:Percent15to25        2    10644 10706
+- Percent25to40:AvgPrice             1    10643 10707
+- Accidents:Percent0to15             1    10644 10708
+- Violations:Percent25to40           1    10645 10709
+- Accidents:Population               1    10645 10709
+- Premium                            1    10681 10745
+
+Step:  AIC=10703.97
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Percent15to25 + Violations:Percent25to40 + Accidents:MilesToWork + 
+    Accidents:Population + Accidents:Percent0to15 + Accidents:Percent15to25 + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Accidents:Percent15to25            1    10641 10703
+- Violations:MilesToWork             1    10641 10703
+- Gender:PrimaryVehicleUsage         1    10641 10703
+- Accidents:MilesToWork              1    10641 10703
+- MilesToWork:Percent25to40          1    10641 10703
+- MilesToWork:Percent0to15           1    10641 10703
+- MilesToWork:AvgPrice               1    10642 10704
+- Gender:Percent15to25               1    10642 10704
+- Population:AvgPrice                1    10642 10704
+- PrimaryVehicleUsage:Percent15to25  1    10642 10704
+- MilesToWork:Percent15to25          1    10642 10704
+<none>                                    10640 10704
+- Violations:Percent15to25           1    10642 10704
+- MaritalStatus:Percent15to25        2    10645 10705
+- Percent25to40:AvgPrice             1    10643 10705
+- Accidents:Percent0to15             1    10644 10706
+- Violations:Percent25to40           1    10645 10707
+- Accidents:Population               1    10646 10708
+- Premium                            1    10682 10744
+
+Step:  AIC=10702.7
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:MilesToWork + 
+    Violations:Percent15to25 + Violations:Percent25to40 + Accidents:MilesToWork + 
+    Accidents:Population + Accidents:Percent0to15 + MaritalStatus:Percent15to25 + 
+    Gender:PrimaryVehicleUsage + Gender:Percent15to25 + MilesToWork:Percent0to15 + 
+    MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + MilesToWork:AvgPrice + 
+    PrimaryVehicleUsage:Percent15to25 + Population:AvgPrice + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Violations:MilesToWork             1    10642 10702
+- Gender:PrimaryVehicleUsage         1    10642 10702
+- MilesToWork:Percent25to40          1    10642 10702
+- MilesToWork:Percent0to15           1    10642 10702
+- Accidents:MilesToWork              1    10642 10702
+- MilesToWork:AvgPrice               1    10642 10702
+- Violations:Percent15to25           1    10642 10702
+- Gender:Percent15to25               1    10642 10702
+- Population:AvgPrice                1    10642 10702
+- PrimaryVehicleUsage:Percent15to25  1    10643 10703
+- MilesToWork:Percent15to25          1    10643 10703
+<none>                                    10641 10703
+- MaritalStatus:Percent15to25        2    10646 10704
+- Percent25to40:AvgPrice             1    10644 10704
+- Accidents:Percent0to15             1    10644 10704
+- Violations:Percent25to40           1    10646 10706
+- Accidents:Population               1    10647 10707
+- Premium                            1    10683 10743
+
+Step:  AIC=10701.57
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:Percent15to25 + 
+    Violations:Percent25to40 + Accidents:MilesToWork + Accidents:Population + 
+    Accidents:Percent0to15 + MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Accidents:MilesToWork              1    10642 10700
+- Gender:PrimaryVehicleUsage         1    10643 10701
+- MilesToWork:Percent0to15           1    10643 10701
+- MilesToWork:Percent25to40          1    10643 10701
+- MilesToWork:AvgPrice               1    10643 10701
+- Violations:Percent15to25           1    10643 10701
+- Gender:Percent15to25               1    10643 10701
+- Population:AvgPrice                1    10643 10701
+- PrimaryVehicleUsage:Percent15to25  1    10643 10701
+- MilesToWork:Percent15to25          1    10644 10702
+<none>                                    10642 10702
+- MaritalStatus:Percent15to25        2    10646 10702
+- Percent25to40:AvgPrice             1    10645 10703
+- Accidents:Percent0to15             1    10645 10703
+- Violations:Percent25to40           1    10647 10705
+- Accidents:Population               1    10648 10706
+- Premium                            1    10684 10742
+
+Step:  AIC=10700.32
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:Percent15to25 + 
+    Violations:Percent25to40 + Accidents:Population + Accidents:Percent0to15 + 
+    MaritalStatus:Percent15to25 + Gender:PrimaryVehicleUsage + 
+    Gender:Percent15to25 + MilesToWork:Percent0to15 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Gender:PrimaryVehicleUsage         1    10643 10699
+- MilesToWork:Percent0to15           1    10644 10700
+- MilesToWork:Percent25to40          1    10644 10700
+- MilesToWork:AvgPrice               1    10644 10700
+- Violations:Percent15to25           1    10644 10700
+- Gender:Percent15to25               1    10644 10700
+- Population:AvgPrice                1    10644 10700
+- PrimaryVehicleUsage:Percent15to25  1    10644 10700
+- MilesToWork:Percent15to25          1    10644 10700
+<none>                                    10642 10700
+- MaritalStatus:Percent15to25        2    10647 10701
+- Percent25to40:AvgPrice             1    10646 10702
+- Accidents:Percent0to15             1    10646 10702
+- Violations:Percent25to40           1    10648 10704
+- Accidents:Population               1    10648 10704
+- Premium                            1    10684 10740
+
+Step:  AIC=10699.39
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:Percent15to25 + 
+    Violations:Percent25to40 + Accidents:Population + Accidents:Percent0to15 + 
+    MaritalStatus:Percent15to25 + Gender:Percent15to25 + MilesToWork:Percent0to15 + 
+    MilesToWork:Percent15to25 + MilesToWork:Percent25to40 + MilesToWork:AvgPrice + 
+    PrimaryVehicleUsage:Percent15to25 + Population:AvgPrice + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- MilesToWork:Percent0to15           1    10645 10699
+- MilesToWork:Percent25to40          1    10645 10699
+- MilesToWork:AvgPrice               1    10645 10699
+- Gender:Percent15to25               1    10645 10699
+- Violations:Percent15to25           1    10645 10699
+- PrimaryVehicleUsage:Percent15to25  1    10645 10699
+- Population:AvgPrice                1    10645 10699
+- MilesToWork:Percent15to25          1    10645 10699
+<none>                                    10643 10699
+- MaritalStatus:Percent15to25        2    10648 10700
+- Percent25to40:AvgPrice             1    10647 10701
+- Accidents:Percent0to15             1    10647 10701
+- Violations:Percent25to40           1    10649 10703
+- Accidents:Population               1    10650 10704
+- Premium                            1    10685 10739
+
+Step:  AIC=10698.58
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:Percent15to25 + 
+    Violations:Percent25to40 + Accidents:Population + Accidents:Percent0to15 + 
+    MaritalStatus:Percent15to25 + Gender:Percent15to25 + MilesToWork:Percent15to25 + 
+    MilesToWork:Percent25to40 + MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- MilesToWork:Percent25to40          1    10645 10697
+- MilesToWork:Percent15to25          1    10646 10698
+- MilesToWork:AvgPrice               1    10646 10698
+- Violations:Percent15to25           1    10646 10698
+- Gender:Percent15to25               1    10646 10698
+- Population:AvgPrice                1    10646 10698
+- PrimaryVehicleUsage:Percent15to25  1    10646 10698
+<none>                                    10645 10699
+- MaritalStatus:Percent15to25        2    10650 10700
+- Percent25to40:AvgPrice             1    10648 10700
+- Accidents:Percent0to15             1    10648 10700
+- Violations:Percent25to40           1    10650 10702
+- Accidents:Population               1    10651 10703
+- Premium                            1    10687 10739
+
+Step:  AIC=10696.96
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:Percent15to25 + 
+    Violations:Percent25to40 + Accidents:Population + Accidents:Percent0to15 + 
+    MaritalStatus:Percent15to25 + Gender:Percent15to25 + MilesToWork:Percent15to25 + 
+    MilesToWork:AvgPrice + PrimaryVehicleUsage:Percent15to25 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- MilesToWork:Percent15to25          1    10646 10696
+- MilesToWork:AvgPrice               1    10646 10696
+- Gender:Percent15to25               1    10646 10696
+- Violations:Percent15to25           1    10646 10696
+- Population:AvgPrice                1    10647 10697
+- PrimaryVehicleUsage:Percent15to25  1    10647 10697
+<none>                                    10645 10697
+- MaritalStatus:Percent15to25        2    10650 10698
+- Percent25to40:AvgPrice             1    10648 10698
+- Accidents:Percent0to15             1    10649 10699
+- Violations:Percent25to40           1    10651 10701
+- Accidents:Population               1    10651 10701
+- Premium                            1    10687 10737
+
+Step:  AIC=10695.66
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:Percent15to25 + 
+    Violations:Percent25to40 + Accidents:Population + Accidents:Percent0to15 + 
+    MaritalStatus:Percent15to25 + Gender:Percent15to25 + MilesToWork:AvgPrice + 
+    PrimaryVehicleUsage:Percent15to25 + Population:AvgPrice + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- MilesToWork:AvgPrice               1    10647 10695
+- Gender:Percent15to25               1    10647 10695
+- Violations:Percent15to25           1    10647 10695
+- PrimaryVehicleUsage:Percent15to25  1    10647 10695
+- Population:AvgPrice                1    10647 10695
+<none>                                    10646 10696
+- MaritalStatus:Percent15to25        2    10651 10697
+- Percent25to40:AvgPrice             1    10649 10697
+- Accidents:Percent0to15             1    10649 10697
+- Violations:Percent25to40           1    10651 10699
+- Accidents:Population               1    10652 10700
+- Premium                            1    10688 10736
+
+Step:  AIC=10695.13
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    MilesToWork + PrimaryVehicleUsage + Population + Percent0to15 + 
+    Percent15to25 + Percent25to40 + AvgPrice + Violations:Percent15to25 + 
+    Violations:Percent25to40 + Accidents:Population + Accidents:Percent0to15 + 
+    MaritalStatus:Percent15to25 + Gender:Percent15to25 + PrimaryVehicleUsage:Percent15to25 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- MilesToWork                        1    10648 10694
+- Gender:Percent15to25               1    10649 10695
+- Violations:Percent15to25           1    10649 10695
+- Population:AvgPrice                1    10649 10695
+- PrimaryVehicleUsage:Percent15to25  1    10649 10695
+<none>                                    10647 10695
+- MaritalStatus:Percent15to25        2    10652 10696
+- Percent25to40:AvgPrice             1    10651 10697
+- Accidents:Percent0to15             1    10651 10697
+- Violations:Percent25to40           1    10653 10699
+- Accidents:Population               1    10653 10699
+- Premium                            1    10689 10735
+
+Step:  AIC=10693.46
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    PrimaryVehicleUsage + Population + Percent0to15 + Percent15to25 + 
+    Percent25to40 + AvgPrice + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Accidents:Population + Accidents:Percent0to15 + MaritalStatus:Percent15to25 + 
+    Gender:Percent15to25 + PrimaryVehicleUsage:Percent15to25 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Gender:Percent15to25               1    10649 10693
+- Violations:Percent15to25           1    10649 10693
+- Population:AvgPrice                1    10649 10693
+- PrimaryVehicleUsage:Percent15to25  1    10649 10693
+<none>                                    10648 10694
+- MaritalStatus:Percent15to25        2    10652 10694
+- Percent25to40:AvgPrice             1    10651 10695
+- Accidents:Percent0to15             1    10651 10695
+- Violations:Percent25to40           1    10653 10697
+- Accidents:Population               1    10654 10698
+- Premium                            1    10689 10733
+
+Step:  AIC=10693.03
+Claims ~ Premium + Violations + Accidents + MaritalStatus + Gender + 
+    PrimaryVehicleUsage + Population + Percent0to15 + Percent15to25 + 
+    Percent25to40 + AvgPrice + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Accidents:Population + Accidents:Percent0to15 + MaritalStatus:Percent15to25 + 
+    PrimaryVehicleUsage:Percent15to25 + Population:AvgPrice + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Gender                             1    10650 10692
+- Violations:Percent15to25           1    10651 10693
+- Population:AvgPrice                1    10651 10693
+- PrimaryVehicleUsage:Percent15to25  1    10651 10693
+<none>                                    10649 10693
+- MaritalStatus:Percent15to25        2    10654 10694
+- Percent25to40:AvgPrice             1    10652 10694
+- Accidents:Percent0to15             1    10653 10695
+- Violations:Percent25to40           1    10655 10697
+- Accidents:Population               1    10655 10697
+- Premium                            1    10691 10733
+
+Step:  AIC=10692.03
+Claims ~ Premium + Violations + Accidents + MaritalStatus + PrimaryVehicleUsage + 
+    Population + Percent0to15 + Percent15to25 + Percent25to40 + 
+    AvgPrice + Violations:Percent15to25 + Violations:Percent25to40 + 
+    Accidents:Population + Accidents:Percent0to15 + MaritalStatus:Percent15to25 + 
+    PrimaryVehicleUsage:Percent15to25 + Population:AvgPrice + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Violations:Percent15to25           1    10652 10692
+- Population:AvgPrice                1    10652 10692
+- PrimaryVehicleUsage:Percent15to25  1    10652 10692
+<none>                                    10650 10692
+- MaritalStatus:Percent15to25        2    10655 10693
+- Percent25to40:AvgPrice             1    10654 10694
+- Accidents:Percent0to15             1    10654 10694
+- Violations:Percent25to40           1    10656 10696
+- Accidents:Population               1    10656 10696
+- Premium                            1    10692 10732
+
+Step:  AIC=10691.64
+Claims ~ Premium + Violations + Accidents + MaritalStatus + PrimaryVehicleUsage + 
+    Population + Percent0to15 + Percent15to25 + Percent25to40 + 
+    AvgPrice + Violations:Percent25to40 + Accidents:Population + 
+    Accidents:Percent0to15 + MaritalStatus:Percent15to25 + PrimaryVehicleUsage:Percent15to25 + 
+    Population:AvgPrice + Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- Population:AvgPrice                1    10653 10691
+- PrimaryVehicleUsage:Percent15to25  1    10654 10692
+<none>                                    10652 10692
+- MaritalStatus:Percent15to25        2    10656 10692
+- Percent25to40:AvgPrice             1    10655 10693
+- Violations:Percent25to40           1    10656 10694
+- Accidents:Percent0to15             1    10656 10694
+- Accidents:Population               1    10658 10696
+- Premium                            1    10694 10732
+
+Step:  AIC=10691.3
+Claims ~ Premium + Violations + Accidents + MaritalStatus + PrimaryVehicleUsage + 
+    Population + Percent0to15 + Percent15to25 + Percent25to40 + 
+    AvgPrice + Violations:Percent25to40 + Accidents:Population + 
+    Accidents:Percent0to15 + MaritalStatus:Percent15to25 + PrimaryVehicleUsage:Percent15to25 + 
+    Percent25to40:AvgPrice
+
+                                    Df Deviance   AIC
+- PrimaryVehicleUsage:Percent15to25  1    10655 10691
+<none>                                    10653 10691
+- MaritalStatus:Percent15to25        2    10658 10692
+- Percent25to40:AvgPrice             1    10657 10693
+- Accidents:Percent0to15             1    10658 10694
+- Violations:Percent25to40           1    10658 10694
+- Accidents:Population               1    10659 10695
+- Premium                            1    10695 10731
+
+Step:  AIC=10691.13
+Claims ~ Premium + Violations + Accidents + MaritalStatus + PrimaryVehicleUsage + 
+    Population + Percent0to15 + Percent15to25 + Percent25to40 + 
+    AvgPrice + Violations:Percent25to40 + Accidents:Population + 
+    Accidents:Percent0to15 + MaritalStatus:Percent15to25 + Percent25to40:AvgPrice
+
+                              Df Deviance   AIC
+<none>                              10655 10691
+- PrimaryVehicleUsage          1    10658 10692
+- MaritalStatus:Percent15to25  2    10660 10692
+- Percent25to40:AvgPrice       1    10659 10693
+- Accidents:Percent0to15       1    10659 10693
+- Violations:Percent25to40     1    10660 10694
+- Accidents:Population         1    10661 10695
+- Premium                      1    10697 10731
+
+Call:  glm(formula = Claims ~ Premium + Violations + Accidents + MaritalStatus + 
+    PrimaryVehicleUsage + Population + Percent0to15 + Percent15to25 + 
+    Percent25to40 + AvgPrice + Violations:Percent25to40 + Accidents:Population + 
+    Accidents:Percent0to15 + MaritalStatus:Percent15to25 + Percent25to40:AvgPrice, 
+    family = binomial(link = "logit"), data = data.reg)
+
+Coefficients:
+                 (Intercept)                       Premium                    Violations  
+                  -3.647e+00                     3.303e-03                    -1.474e-01  
+                   Accidents                MaritalStatusM                MaritalStatusS  
+                  -9.642e-02                     7.325e-02                    -6.466e-01  
+     PrimaryVehicleUsageWork                    Population                  Percent0to15  
+                  -1.101e-01                    -6.171e-06                     1.070e+00  
+               Percent15to25                 Percent25to40                      AvgPrice  
+                  -1.058e+00                     2.667e-01                     9.895e-06  
+    Violations:Percent25to40          Accidents:Population        Accidents:Percent0to15  
+                   4.230e-01                     6.648e-06                    -1.119e+00  
+MaritalStatusM:Percent15to25  MaritalStatusS:Percent15to25        Percent25to40:AvgPrice  
+                  -4.047e-01                     1.741e+00                    -3.079e-05  
+
+Degrees of Freedom: 35710 Total (i.e. Null);  35693 Residual
+Null Deviance:	    10740 
+Residual Deviance: 10660 	AIC: 10690
