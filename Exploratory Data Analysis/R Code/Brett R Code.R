@@ -78,3 +78,56 @@ ggplot(data=d9,aes(x=factor(VehicleModelYear),y=VehicleID)) + geom_tile(aes(fill
 d10 = all %>% group_by(VehicleModelYear,VehicleID) %>% summarize(mean=mean(LossRatio), n = n())
 ggplot(data=d10,aes(x=factor(VehicleModelYear),y=VehicleID)) + geom_tile(aes(fill = mean), colour = "white") + geom_text(aes(label = round(mean, 3))) + scale_fill_gradient(low = "white", high = "red")
 
+
+d10 = all %>% group_by(VehicleModelYear,VehicleID) %>% summarize(sumPremium=sum(Premium), sumClaims = sum(ClaimsAmount), lr = sum(ClaimsAmount)/sum(Premium), n = n())
+ggplot(data=d10,aes(x=factor(VehicleModelYear),y=VehicleID)) + geom_tile(aes(fill =lr), colour = "white") + geom_text(aes(label = round(lr, 2))) + scale_fill_gradient(low = "white", high = "red")
+
+
+ggplot(data=d10,aes(x=factor(VehicleModelYear),y=VehicleID)) + geom_tile(aes(fill =n), colour = "white") + scale_fill_gradient(low = "black", high = "white")
+ggplot(data=d10,aes(x=factor(VehicleModelYear),y=VehicleID)) + geom_tile(aes(fill =lr), colour = "white") + scale_fill_gradient(low = "white", high = "chartreuse1")
+
+
+p <- ggplot(all, aes(jitter(Percent25to40), jitter(AvgPrice)))
+p + geom_point(aes(colour = factor(lr)))
+
+p <- ggplot(all, aes(jitter(Percent25to40), jitter(AvgPrice)))
+p + geom_point(aes(colour = factor(lr)))
+
+ggplot(data=d10,aes(x=factor(VehicleModelYear),y=VehicleID)) + geom_tile(aes(fill =lr), colour = "white") + scale_fill_gradient(low = "white", high = "red") + geom_tile(aes(fill =n), colour = "white")+ scale_fill_gradient(low = "black", high = "white")
+
+ggplot(data=d10,aes(x=factor(Population15to25),y=MaritalStatus)) + geom_tile(aes(fill =lr), colour = "white") + scale_fill_gradient(low = "white", high = "red") + geom_tile(aes(fill =n), colour = "white")+ scale_fill_gradient(low = "black", high = "white")
+
+##SEND HELP I AM DISORGANIZED
+d11 = all %>% group_by(PrimaryVehicleUsage,MaritalStatus) %>% summarize(sumPremium=sum(Premium), sumClaims = sum(ClaimsAmount), lr = sum(ClaimsAmount)/sum(Premium), n = n())
+ggplot(data=d11,aes(x=factor(PrimaryVehicleUsage),y=MaritalStatus)) + geom_tile(aes(fill =lr), colour = "white") + geom_text(aes(label = paste("LR: ",round(lr, 2),"\ncount: ", n))) + scale_fill_gradient(low = "white", high = "red")
+
+##SEND HELP I AM DISORGANIZED
+d12 = all %>% group_by(PrimaryVehicleUsage,age) %>% summarize(sumPremium=sum(Premium), sumClaims = sum(ClaimsAmount), lr = sum(ClaimsAmount)/sum(Premium), n = n())
+ggplot(data=d12,aes(x=factor(PrimaryVehicleUsage),y=age)) + geom_tile(aes(fill =lr), colour = "white") + geom_text(aes(label = paste("LR: ",round(lr, 2),"\ncount: ", n))) + scale_fill_gradient(low = "white", high = "red")
+
+#First derive age
+all$DateOfBirth[all$DateOfBirth=="NULL"] = NA
+all$DateOfBirth = as.Date(all$DateOfBirth,format="%m/%d/%Y")
+all$DateOfBirth[is.na(all$DateOfBirth)] = Sys.Date()
+all$age = age_calc(all$DateOfBirth,units="years")
+all$age[all$age==0] = NA
+
+#age category
+all$agecat <- NA
+all$agecat[all$age<=77] <- "49-77"
+all$agecat[all$age<=48] <- "37-48"
+all$agecat[all$age<=36] <-"28-36"
+all$agecat[all$age<=27] <-"0-27"
+
+##SEND HELP I AM DISORGANIZED
+d13 = all %>% group_by(PrimaryVehicleUsage,agecat) %>% summarize(sumPremium=sum(Premium), sumClaims = sum(ClaimsAmount), lr = sum(ClaimsAmount)/sum(Premium), n = n())
+ggplot(data=d13,aes(x=factor(PrimaryVehicleUsage),y=agecat)) + geom_tile(aes(fill =lr), colour = "white") + geom_text(aes(label = paste("LR: ",round(lr, 2),"\ncount: ", n))) + scale_fill_gradient(low = "white", high = "red")
+
+d13 = all %>% group_by(Accidents,agecat) %>% summarize(sumPremium=sum(Premium), sumClaims = sum(ClaimsAmount), lr = sum(ClaimsAmount)/sum(Premium), n = n())
+ggplot(data=d13,aes(x=factor(Accidents),y=agecat)) + geom_tile(aes(fill =lr), colour = "white") + geom_text(aes(label = paste("LR: ",round(lr, 2),"\ncount: ", n))) + scale_fill_gradient(low = "white", high = "red")
+
+d13 = all %>% group_by(Violations,agecat) %>% summarize(sumPremium=sum(Premium), sumClaims = sum(ClaimsAmount), lr = sum(ClaimsAmount)/sum(Premium), n = n())
+ggplot(data=d13,aes(x=factor(Violations),y=agecat)) + geom_tile(aes(fill =lr), colour = "white") + geom_text(aes(label = paste("LR: ",round(lr, 2),"\ncount: ", n))) + scale_fill_gradient(low = "white", high = "red")
+
+d13 = all %>% group_by(Gender,agecat) %>% summarize(sumPremium=sum(Premium), sumClaims = sum(ClaimsAmount), lr = sum(ClaimsAmount)/sum(Premium), n = n())
+ggplot(data=d13,aes(x=factor(Gender),y=agecat)) + geom_tile(aes(fill =lr), colour = "white") + geom_text(aes(label = paste("LR: ",round(lr, 2),"\ncount: ", n))) + scale_fill_gradient(low = "white", high = "red")
